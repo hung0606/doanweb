@@ -1,0 +1,366 @@
+*{
+         margin: 0;
+         padding: 0;
+         }
+         .container .tag a{
+         display: inline-block;
+         padding: 7px 15px;
+         margin-right: 10px;
+         margin-bottom: 10px;
+         padding-top: 40px;
+         text-decoration: none;
+         color: black;
+         }
+         .container .tag a:hover{
+         }
+         .container .ax h2{
+         color: #B2910E;
+         text-align: center;
+         font-size: 35px
+         }
+         .container .ax a{
+         text-decoration: none;
+         color: #A5190E;            
+         }
+         .container .ax p{
+         text-align: center;
+         font-size: 18px
+         }
+         .container .tagg a{
+         display: inline-block;
+         padding: 7px 15px;
+         border: 1px solid black;
+         border-radius: 8px;
+         margin-right: 10px;
+         margin-bottom: 10px;
+         font-size: 20px;
+         text-decoration: none;
+         color: black;
+         }
+         .container .tagg a:hover{
+         background-image: url(https://us.123rf.com/450wm/rommmeo79/rommmeo791610/rommmeo79161000194/64978670-red-chinese-background-pattern-for-new-years-celebrations-vector-seamless-art.jpg?ver=6);
+         color: white
+         }         
+         .container .tagg{
+         text-align: center;
+         }
+         .wrap{
+         position: absolute;
+         left: 50%;
+         top: 50%;
+         width: 96%;
+         transform: translate(-50%,-50%);
+         text-align: center;
+         padding-left: 90px;
+         font-size: 70px;
+         }
+         .wrap p{
+         font-family: Northwell;
+         }
+         .zoom {
+         box-sizing: border-box;
+         overflow: hidden;
+         position: relative;
+         width: 550px;
+         height: 260px
+         }
+         .zoom1 {
+         box-sizing: border-box;
+         overflow: hidden;
+         position: relative;
+         }
+         .zoom2 {
+         box-sizing: border-box;
+         overflow: hidden;
+         position: relative;
+         width: 360px;
+         height: 360px
+         }
+         .zoom3 {
+         box-sizing: border-box;
+         overflow: hidden;
+         position: relative;
+         }
+         .exam {
+         height: 182px;                 
+         background: url("https://vietnam.travel/sites/default/files/styles/large/public/2020-04/Vietnam%20Travel-10_1.jpg?itok=W5J9tVG2")
+         no-repeat 50% 50%;
+         background-size: cover;         }
+         .exam1 {
+         height: 182px;                 
+         background: url("https://vietnam.travel/sites/default/files/styles/large/public/2020-04/Vietnam%20Travel-24_0.jpg?itok=F0-FnjpT")
+         no-repeat 50% 50%;
+         background-size: cover;
+         }
+         .exam2 {
+         height: 182px;                 
+         background: url("https://vietnam.travel/sites/default/files/styles/large/public/2020-04/Vietnam%20Travel-13_1.jpg?itok=qZvuM9Uq")
+         no-repeat 50% 50%;
+         background-size: cover;
+         }
+         .exam3 {
+         height: 182px;                 
+         background: url("https://vietnam.travel/sites/default/files/styles/large/public/2020-02/Vietnam%20Tourism-5_0.jpg?itok=RB4d-6VL")
+         no-repeat 50% 50%;
+         background-size: cover;
+         }
+         .exam4 {
+         height: 182px;                 
+         background: url("https://vietnam.travel/sites/default/files/styles/large/public/2020-02/Vietnam%20Tourism-6_0.jpg?itok=k37JgnZx")
+         no-repeat 50% 50%;
+         background-size: cover;
+         }
+         .exam5 {
+         height: 182px;                 
+         background: url("https://vietnam.travel/sites/default/files/styles/large/public/2020-02/Vietnam%20Tourism-7_0.jpg?itok=K5Fv5xPH")
+         no-repeat 50% 50%;
+         background-size: cover;
+         }
+         .exam6 {
+         height: 260px;                 
+         background: url("https://vietnam.travel/sites/default/files/styles/inspired_thumbnail/public/2020-06/banh%20mi%20sandwich.jpg?itok=43WzI6zJ")
+         no-repeat 50% 50%;
+         background-size: cover;
+         }
+         .exam7 {
+         height: 260px;                 
+         background: url("https://vietnam.travel/sites/default/files/styles/large/public/2020-08/eco%20hotel%20vietnam_0_0.jpg?itok=oH2CTWzS")
+         no-repeat 50% 50%;
+         background-size: cover;
+         }
+         .exam8 {
+         height: 260px;                 
+         background: url("https://vietnam.travel/sites/default/files/styles/large/public/2020-08/Best%20responsible%20tours%20Vietam-2_0.jpg?itok=B-d_uV0k")
+         no-repeat 50% 50%;
+         background-size: cover;
+         }
+         .exam9 {
+         height: 260px;                 
+         background: url("https://vietnam.travel/sites/default/files/styles/inspired_thumbnail/public/2020-07/Vietnam%20virtual%20tours%20%282%29.jpg?itok=dzr07ZG2")
+         no-repeat 50% 50%;
+         background-size: cover;
+         }
+         .exam10 {
+         height: 260px;                 
+         background: url("https://vietnam.travel/sites/default/files/styles/inspired_thumbnail/public/2020-01/Guide%20to%20adventures%20in%20Con%20Dao%207_0.jpg?itok=pF0-9DGN")
+         no-repeat 50% 50%;
+         background-size: cover;
+         }
+         .exam11 {                
+         background: url("https://vietnam.travel/sites/default/files/360Tour/HaLong/socialThumbnail.jpg")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam12 {                
+         background: url("https://vietnam.travel/sites/default/files/360Tour/NinhBinh/socialThumbnail.jpg")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam13 {                
+         background: url("https://vietnam.travel/sites/default/files/360Tour/PhongNha/socialThumbnail.jpg")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam14 {                
+         background: url("https://vietnam.travel/sites/default/files/360Tour/Hue/socialThumbnail.jpg")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam15 {                
+         background: url("https://vietnam.travel/sites/default/files/360Tour/HoiAn/socialThumbnail.jpg")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam16 {                
+         background: url("https://vietnam.travel/sites/default/files/360Tour/MySon/socialThumbnail.jpg")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam17 {                
+         background: url("https://scontent-sin6-2.cdninstagram.com/v/t51.29350-15/117221425_284873185945574_1723639481738635030_n.jpg?_nc_cat=110&_nc_sid=8ae9d6&_nc_ohc=RZLwnpVQnvQAX_ukQvB&_nc_ht=scontent-sin6-2.cdninstagram.com&oh=9231aa9336fd67f6d1ea5493acfed0b4&oe=5F4DF58E")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 282.5px;
+         width: 282.5px
+         }
+         .exam18 {                
+         background: url("https://scontent-sin6-1.cdninstagram.com/v/t51.29350-15/117306030_747803182736500_4570283211595055522_n.jpg?_nc_cat=107&_nc_sid=8ae9d6&_nc_ohc=hMSvcJE_ZEkAX8VWzd1&_nc_ht=scontent-sin6-1.cdninstagram.com&oh=878f04dd8878c81147dc11feb508bca8&oe=5F4D19F2")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 282.5px;
+         width: 282.5px
+         }
+         .exam19 {                
+         background: url("https://scontent-sin6-2.cdninstagram.com/v/t51.2885-15/116583267_313785336479543_7481387343981265925_n.jpg?_nc_cat=110&_nc_sid=8ae9d6&_nc_ohc=h4rKQMNuSJMAX8uunb5&_nc_ht=scontent-sin6-2.cdninstagram.com&oh=fe7d96efb907598bb722b76297287877&oe=5F4C2806")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 282.5px;
+         width: 282.5px
+         }
+         .exam20 {                
+         background: url("https://scontent-xsp1-2.cdninstagram.com/v/t51.2885-15/116311432_698707997346756_6110301315888301651_n.jpg?_nc_cat=104&_nc_sid=8ae9d6&_nc_ohc=GiZ37KTclJEAX9Bv3gm&_nc_ht=scontent-xsp1-2.cdninstagram.com&oh=3e35aa64976987ebae4a89be3c575453&oe=5F4C2E3C")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 282.5px;
+         width: 282.5px
+         }
+         .exam21 {                
+         background: url("https://scontent-xsp1-2.cdninstagram.com/v/t51.29350-15/116350095_135473258227912_7332177138378485430_n.jpg?_nc_cat=106&_nc_sid=8ae9d6&_nc_ohc=1YHhQkRtmpkAX9ewnho&_nc_ht=scontent-xsp1-2.cdninstagram.com&oh=686ccb7b5237e907d9721b35fe3b7764&oe=5F4BB800")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 575px;
+         width: 575px
+         }
+         .exam:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam1:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam2:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam3:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam4:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam5:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam6:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam7:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam8:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam9:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam10:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam11:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam12:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam13:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam14:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam15:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam16:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam17:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam18:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam19:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam20:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam21:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exa p{
+         font-size: 16px;
+         color: #252525;
+         text-align: center;
+         margin: 0px;
+         }
+         .layer {
+         position: absolute;
+         bottom: 0px;
+         left: 0;
+         }
+         .layer1 {
+         position: absolute;
+         bottom: 68px;
+         left: 0;
+         }
+         .layer a{
+         text-decoration: none;
+         }
+         .layer1 a{
+         text-decoration: none;
+         }
+         .layer1 span{
+         background-image: url(https://us.123rf.com/450wm/rommmeo79/rommmeo791610/rommmeo79161000194/64978670-red-chinese-background-pattern-for-new-years-celebrations-vector-seamless-art.jpg?ver=6);
+         font-size: 14px;
+         padding: 10px;
+         bottom: 200px;
+         color: white
+         }
+         .layer p{
+         display: block;
+         background: #00000066;
+         color: white;
+         padding: 10px;
+         font-size: 20px;
+         min-height: 60px;
+         margin: 0px;
+         width: 700px;
+         font-family: Helvetica;
+         }
+         .footer h4{
+         color: #B2910E;
+         font-size: 20px;
+      }
+      .footer button{
+      background-image: url(https://image.freepik.com/free-vector/background-template-with-chinese-patterns-red_1308-38164.jpg);
+      
+   }
+   .footer a{
+   text-decoration: none;
+   font-size: 14px;
+   color: black;
+}

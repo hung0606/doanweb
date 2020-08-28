@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name=description content="">
+      <meta name=viewport content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <title></title>
+      <style>
+         *{
+         margin: 0;
+         padding: 0;
+         }
+         .container .tag a{
+         display: inline-block;
+         padding: 7px 15px;
+         margin-right: 10px;
+         margin-bottom: 10px;
+         padding-top: 40px;
+         text-decoration: none;
+         color: black;
+         }
+         .container .tag a:hover{
+         }
+         .footer h4{
+         color: #B2910E;
+         font-size: 20px;
+      }
+      .footer button{
+      background-image: url(https://image.freepik.com/free-vector/background-template-with-chinese-patterns-red_1308-38164.jpg);
+      
+   }
+   .footer a{
+   text-decoration: none;
+   font-size: 14px;
+   color: black;
+}
+   .fot{
+      background-color: #EBEBEB;
+      width: 100%;
+      height: 578px;
+   }
+
+         .exam {                
+         background: url("https://vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2019-11/sustainable%20travel%20Vietnam%20tourism-10.JPG?itok=tp9wrVHA")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam1 {                
+         background: url("https://vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2020-08/sustainable%20hotels%20vietnam_0.jpg?itok=g0Cfqzzm")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam1:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam2 {                
+         background: url("https://vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2019-12/Off%20the%20beaten%20path%20Vietnam%20travel-35_1.jpg?itok=pJVzHlcI")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam2:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .zoom4 {
+         box-sizing: border-box;
+         overflow: hidden;
+         position: relative;
+         }
+         .layer {
+         position: absolute;
+         bottom: 0px;
+         left: 0;
+         background-color: #00000066;
+         color: white;
+         width: 350px;
+         height: 64px;
+         font-size: 18px;
+         }
+         .fot .row{
+            padding-top: 50px;
+         }
+         .fot h1 {
+            font-family: Helvetica;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 80px
+         }
+         h3 {
+            color: #9E0B0F;
+            font-size: 20px;
+            font-family: VNFGothamBold,Helvetica,Arial,sans-serif;
+            margin: 20px 0px 10px 0px;
+         }
+         img {
+            margin: 15px 0px;
+         }
+         h5 {
+            color: #848484;
+         }
+         p{
+            font-size: 17px
+         }
+         hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-bottom: 1px solid #eee
+         }
+         ul {
+         list-style: none;
+         }
+         .menu a {
+         text-decoration: none;
+         color: gray
+         }
+         .menu ul {
+         position: absolute;
+         left: 0px;
+         display: none;
+         z-index: 1; 
+         width: 100%;
+         }
+         .menu > li {
+         float: left;
+         text-align: center;
+         padding: 20px
+         }
+         .menu li li {
+            float: left;
+         }
+         .menu li:hover {
+         background: #EBEBEB;
+         cursor: pointer;
+         }
+         .menu li:hover a{
+            color: #A5190E
+         }
+         .menu > li {
+            padding: 40px 20px 20px 20px;
+         } 
+         .menu ul ul {
+         left: 150px;
+         top: 0;
+         }
+         .menu li li{
+         width: calc(100% / 4);
+         height: 400px;
+         line-height: 0px;
+         background-color: #EBEBEB;
+         color: black
+         }
+         .menu li ul {
+         padding-top: 18px
+         }
+         .menu .item li a{
+            color: black;
+         }
+         .w3-content {
+            padding-left: 20px
+         }
+         .item li p {
+            padding: 10px;
+            text-align: center;
+         }
+         .item li{
+            padding-top:  70px;
+         }
+         .sir li > p{
+            color: #B2910E
+         }
+         .ind a{
+            z-index: 2;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="row ind">
+            <a href=""><img src="https://mir-s3-cdn-cf.behance.net/projects/404/f0ebf338211777.Y3JvcCwxMzc5LDEwODAsMjcwLDA.jpg" width="152" height="117" alt=""></a>
+            <div class="w3-content">
+               <ul class="menu">
+                  <li><a href="#"><b>Những nơi để đi</b></a>
+                     <ul class="item sir">
+                        <li style="padding-left: 200px">
+                           <p style="padding-left: 40px"><b>CÁC TỈNH ĐỂ ĐI</b></p>
+                           <p style="padding-right: 32px; padding-top: 20px"><a href="angiang.html">An Giang</a></p>
+                           <p style="padding-right: 40px"><a href="baclieu.html">Bạc Liêu</a></p>
+                           <p style="padding-right: 45px"><a href="bentre.html">Bến Tre</a></p>
+                           <p style="padding-right: 43px"><a href="camau.html">Cà Mau</a></p>
+                           <p style="padding-right: 37px"><a href="cantho.html">Cần Thơ</a></p>
+                        </li>
+                        <li style="padding-left: 100px">
+                           <p style="padding-left: 40px"><b>CÁC TỈNH ĐỂ ĐI</b></p>
+                           <p style="padding-right: 20px; padding-top: 20px"><a href="dongthap.html">Đồng Tháp</a></p>
+                           <p style="padding-right: 25px"><a href="haugiang.html">Hậu Giang</a></p>
+                           <p style="padding-right: 23px"><a href="kiengiang.html">Kiên Giang</a></p>
+                           <p style="padding-right: 40px"><a href="longan.html">Long An</a></p>
+                        </li>
+                        <li>
+                           <p style="padding-left: 40px"><b>CÁC TỈNH ĐỂ ĐI</b></p>
+                           <p style="padding-top: 25px; padding-right: 25px"><a href="soctrang.html">Sóc Trăng</a></p>
+                           <p style="padding-right: 22px"><a href="tiengiang.html">Tiền Giang</a></p>
+                           <p style="padding-right: 39px"><a href="travinh.html">Trà Vinh</a></p>
+                           <p style="padding-right: 21px"><a href="vinhlong.html">Vĩnh Long</a></p>
+                        </li>
+                        <li>
+                           <img src="https://www.vietfuntravel.com.vn/image/data/Blog/DiaDiem/ban-do-du-lich-13-tinh-mien-tay-nam-bo/ban-do-du-lich-13-tinh-mien-tay-nam-bo-0.jpg.png" width="300px" height="300px" alt="">
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="#"><b>Những việc cần làm</b></a></li>
+                  <li>
+                     <a href="#"><b>Lên kế hoạch cho chuyến đi của bạn</b></a>
+                     <ul class="item">
+                        <li>
+                              <p href="#"><a href="angiang.html">Đến Miền Tây</a></p>
+                              <p style="padding-left: 34px" href="#"><a href="bentre.html">Đi khắp Miền Tây</a></p>
+                              <p style="padding-right: 41px" href="#"><a href="noi.html">Sức khỏe</a></p>
+                              <p style="padding-right: 50px" href="#"><a href="noi.html">An toàn</a></p>
+                              <p style="padding-right: 20px" href="#"><a href="noi.html">Phương tiện</a></p>
+                        </li>
+                        <li>
+                              <p style="padding-left: 25px; color: #B2910E"><b>CÁC CHUYẾN ĐI ĐƯỢC ĐỀ XUẤT</b></p>
+                              <p style="padding-top: 20px; padding-right: 50px"><a href="">Điểm nổi bật của Miền Tây</a></p>
+                              <p style="padding-right: 125px"><a href="">Di sản Miền Tây</a></p>
+                              <p style="padding-right: 60px"><a href="">Xem tất cả các chuyến đi</a></p>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <img src="https://file.vforum.vn/hinh/2018/03/hinh-anh-hinh-nen-song-nuoc-dep-song-nuoc-mien-tay-que-huong-10.jpg" width="220px" height="220px" alt="">
+                           </a>
+                        </li>
+                        <li style="padding-right: 180px; margin: 0px">
+                           <a href="#">
+                              <img src="https://cafefcdn.com/thumb_w/650/2017/photo-6-1508126712679.jpg" width="220px" height="220px" alt="">
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="#"><b>Du lịch xanh</b></a></li>
+                  <li><a href="#"><b>Miền Tây bây giờ</b></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid mt-3" style="padding: 0px">
+         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="https://vietnam.travel/sites/default/files/styles/top_banner/public/2020-02/Things%20to%20do%20in%20Cai%20Be%20in%20the%20Mekong%20Delta-9_1.jpg?itok=E0HfhEr0" class="d-block w-100" alt="...">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container mt-5">
+         <div class="form-group">
+            <div class="row">
+               <div class="col-md-3"></div>
+               <div class="col-md-3"></div>
+               <div class="col-md-3"></div>
+               <div class="col-md-3">
+                  <div class="row">
+                     <div>
+                        <a href=""><img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-2_4.jpg" width="22px" height="22px" alt=""></a>
+                     </div>
+                     <div>
+                        <a href=""><img style="padding-left: 3px;" src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-3_6.jpg" width="25px" height="22px" alt=""></a>
+                     </div>
+                     <div>
+                        <a href=""><img style="padding-left: 3px" src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-4_4.jpg" width="25px" height="22px" alt=""></a>
+                     </div>
+                     <div>
+                        <a href=""><img style="padding-left: 3px" src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web_4.jpg" width="25px" height="22px" alt=""></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-xs-12 col-md-2"></div>
+            <div class="col-xs-12 col-md-8">
+               <p style="font-size: 20px;font-family: VNFGothamBook;color: #848484">Cái Bè là một mảnh đất bình dị của đồng bằng sông Cửu Long , chỉ cách Thành phố Hồ Chí Minh hai giờ đi xe. Mặc dù phần còn lại của Miền Tây sử dụng câu nói “thoải mái đi” (thoải mái đi), nhưng người dân Cái Bè sống bằng nó. Một thị trấn chủ yếu là nông dân trồng trái cây và ngư dân sông nước, Cái Bè hoạt động theo một lịch trình thoải mái: buổi sáng dành cho việc buôn bán và làm việc chăm chỉ, phần còn lại trong ngày là chậm rãi.</p>
+               <p style="font-size: 20px;font-family: VNFGothamBook;color: #848484">Dậy sớm để chứng kiến ​​cuộc sống chợ búa vui đùa trên mặt nước, sau đó đạp xe đạp qua Cù lao Tân Phong, nhâm nhi cà phê sữa đá trên võng và thả mình xuống những con kênh lá. Dưới đây là một số lý do khiến bạn yêu thích thời gian ở Cái Bè.</p>
+               <hr>
+               <h3><b>Thuyền và cuộc sống sông nước</b></h3>
+               <p>
+                  <img src="https://vietnam.travel/sites/default/files/inline-images/Things%20to%20do%20in%20Cai%20Be%20in%20the%20Mekong%20Delta-3.jpg" width="750px" height="500px" alt="">
+               </p>
+               <hr>
+               <h3><b>Trang trại và vườn cây ăn trái</b></h3>
+               <p>
+                  <img src="https://vietnam.travel/sites/default/files/inline-images/Things%20to%20do%20in%20Cai%20Be%20in%20the%20Mekong%20Delta-11.jpg" width="750px" height="500px" alt="">
+               </p>
+               <p>
+                 <b>Tân Phong</b> là một cù lao trên sông Mê Kông, du khách có thể đi phà năm phút. Hòn đảo là một thiên đường nhiệt đới. Những con kênh hẹp chằng chịt, tạo nên đất đai trù phú mà nông dân Cái Bè canh tác để trồng những trái ngon . Những trái mít, chôm chôm, xoài và măng cụt trĩu nặng treo trên những thân cây che phủ từng inch của hòn đảo. Hãy dành cho mình một buổi chiều để khám phá những con đường nhỏ của cù lao bằng xe đạp. Đi qua những cây cầu nhỏ và dọc theo mép nước, tất cả đều được bao quanh bởi cây xanh tươi tốt.
+               </p>
+               <p><b><h2 style="font-size: 22px">"LỜI KHUYÊN: Đến giờ uống trà, ghé vào Trang trại Ong Hải Yến để tham quan trang trại mật ong của họ, và sau đó thư giãn với đồ uống mật ong thơm ngon."</h2></b></p>
+               <hr>
+               <h3><b>Thương mại ven sông đầy màu sắc</b></h3>
+               <p>
+                  <img src="https://vietnam.travel/sites/default/files/inline-images/Things%20to%20do%20in%20Cai%20Be%20in%20the%20Mekong%20Delta-5.jpg" width="750px" height="500px" alt="">
+               </p>
+               <p>
+                  Thị trấn Cái Bè được khởi động sớm và bạn cũng sẽ muốn như vậy. Thức dậy vào lúc bình minh để đi một chuyến phà kỳ diệu vào lúc bình minh, và đạp xe qua những cây cầu của thị trấn và qua những khu chợ buổi sáng. Các <b>thị trường ven sông Tiền</b> có thể dễ dàng nhận biết. Dưới những tấm bạt phủ bạt, những người bán hoa và trái cây tươi chờ khách trong khi trò chuyện với bạn bè hoặc chơi Cờ caro. Từ đó, hướng đến <b>Nhà thờ Cái Bè</b> , do một linh mục Công giáo người Đức xây dựng vào đầu thế kỷ 20. Tìm kiếm những ngôi chùa nhỏ, đền thờ Phật giáo và đền thờ Hindu nằm rải rác khắp thị trấn - một lời nhắc nhở về đặc điểm đa văn hóa của Đồng bằng sông Cửu Long. 
+               </p>
+               <hr>
+               <h3><b>Những homestay đáng nhớ</b></h3>
+               <p>
+                  <img src="https://vietnam.travel/sites/default/files/inline-images/Things%20to%20do%20in%20Cai%20Be%20in%20the%20Mekong%20Delta_0.jpg" width="750px" height="500px" alt="">
+               </p>
+               <p>
+                  Hãy tận mắt trải nghiệm sự hiếu khách và nồng hậu của người dân Đồng bằng sông Cửu Long bằng cách chọn homestay do gia đình tự quản ở Cái Bè. <b>Mekong Rustic</b> là hoạt động bền vững với lựa chọn homestay hoặc bungalow riêng nằm trong khu vườn hoa trên Cù lao Tân Phong. Tại đây chủ nhà của bạn sẽ nấu các bữa ăn địa phương tuyệt vời và chiều chuộng bạn với trái cây tươi và đồ ngọt Đồng bằng sông Cửu Long suốt cả ngày. Các homestay như Mekong Rustic cũng tổ chức các tour du lịch cộng đồng đến các xưởng thủ công và nghệ nhân ở Cái Bè. Hãy dành một vài ngày để hòa mình vào nhịp sống địa phương, và để bản thân được sảng khoái hoàn toàn trước sự phong phú và xinh đẹp của Cái Bè.
+               </p>
+               <hr>
+               <h3><b>Âm nhạc dân gian truyền thống </b></h3>
+               <p>
+                  <img src="https://vietnam.travel/sites/default/files/inline-images/Things%20to%20do%20in%20Cai%20Be%20in%20the%20Mekong%20Delta-6.jpg" width="750px" height="500px" alt="">
+               </p>
+               <p>
+                  Người dân Đồng bằng sông Cửu Long nổi tiếng yêu văn nghệ. <b>Cải Lương</b> , một loại hình nghệ thuật hát bội dân gian của Miền Tây có nguồn gốc từ Đồng bằng sông Cửu Long, là sự kết hợp giữa ballad và sân khấu với một nhạc sĩ chơi đàn tranh hoặc guitar trong các bản diễn tấu hiện đại. Cốt truyện thú vị thường lấy bối cảnh ở vùng nông thôn Miền Tây và có thể là hài hước, buồn bã hoặc cả hai. Bất chấp rào cản ngôn ngữ, bạn có thể dễ dàng thưởng thức Cải lương nhờ diễn xuất biểu cảm và giọng hát du dương. Các <b>Garden Restaurant sông Cửu Long</b> , trên Hòn Tân Phong, là một trong những nơi mà thực hiện Cải Lương nhạc suốt cả ngày và lúc ăn tối. 
+               </p>
+               <hr>
+               <i><h5>Muốn có thêm ý tưởng du lịch Miền Tây? <a href="">Đăng ký nhận bản tin của chúng tôi</a> để nhận những câu chuyện hay nhất của chúng tôi trong hộp thư đến của bạn.</h5></i>
+            </div>
+            <div class="col-xs-12 col-md-2"></div>
+         </div>
+      </div>
+      <div class="container-fluid fot mt-5">
+         <div class="container">
+            <div>
+               <h1>Đọc thêm</h1>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="zoom4">
+                     <div class="exam">
+                        
+                     </div>
+                     <div class="layer">
+                        <b><p>Ý TƯỞNG ĐẦY CẢM HỨNG CHO NHỮNG DU KHÁCH CÓ TRÁCH NHIỆM</p></b>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="zoom4">
+                     <div class="exam1">
+                        
+                     </div>
+                     <div class="layer">
+                        <b><p>NHỮNG KỲ NGHỈ BỀN VỮNG TỐT NHẤT TẠI MIỀN TÂY</p></b>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="zoom4">
+                     <div class="exam2">
+                        
+                     </div>
+                     <div class="layer">
+                        <b><p>ĐI ĐÂU ĐỂ THẤY MIỀN TÂY CHƯA TỪNG THẤY</p></b>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer">
+         <div class="container-fluid pt-5">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4" style="padding: 0px; margin: 0px">
+                     <div>
+                        <h4>ĐĂNG KÝ NHẬN BẢN TIN CỦA CHÚNG TÔI</h4>
+                     </div>
+                     <div>
+                        <p style="font-size: 14px">Nhận các câu chuyện du lịch mới từ Miền Tây mỗi tháng một lần trong hộp thư đến của bạn.</p>
+                     </div>
+                     <div>
+                        <form action="">
+                           <div>
+                              <input type="text" name="" placeholder="Email của bạn" size="44px" style="padding: 10px"/>
+                           </div>
+                           <div style="padding-top: 10px">
+                              <button type="button" class="btn btn-danger" style="width: 375px; height: 50px">ĐĂNG KÝ</button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="col-md-3" style="padding-left: 100px">
+                     <div>
+                        <div>
+                           <h4>LIÊN KẾT HỮU ÍCH</h4>
+                        </div>
+                        <div>
+                           <div>
+                              <a href="">Chính sách bảo mật</a>
+                           </div>
+                           <div>
+                              <a href="">Thị thực cho Miền Tây</a>
+                           </div>
+                           <div>
+                              <a href="">Điều khoản và điều kiện</a>
+                           </div>
+                           <div>
+                              <a href="">Câu hỏi thường gặp</a>
+                           </div>
+                           <div>
+                              <a href="">Sơ đồ trang web</a>
+                           </div>
+                           <div>
+                              <a href="">Phương tiện truyền thông tin tức</a>
+                           </div>
+                           <div>
+                              <a href="">Tài nguyên Công nghiệp</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-5" style="padding-left: 80px">
+                     <div>
+                        <h4>THEO DÕI CHÚNG TÔI TẠI</h4>
+                     </div>
+                     <div class="row" style="padding-left: 15px; padding-top: 5px">
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-2_4.jpg" width="34px" height="34px" alt="">
+                        </div>
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-3_6.jpg" width="34px" height="34px" alt="">
+                        </div>
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-4_4.jpg" width="34px" height="34px" alt="">
+                        </div>
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web_4.jpg" width="34px" height="34px" alt="">
+                        </div>
+                     </div>
+                     <div style="padding-top: 30px">
+                        <i>
+                           <p>Chào mừng bạn đến với trang web chính thức của Tổng cục Du lịch Miền Tây. Ghé thăm các trang truyền thông xã hội của chúng tôi để có thêm cảm hứng du lịch.</p>
+                        </i>
+                     </div>
+                  </div>
+               </div>
+               <div class="container" style="padding-top: 80px">
+                  <hr style="border-bottom: 1px solid red">
+               </div>
+               <div class="container">
+                  <p style="text-align: center;">© 2016 Trang web chính thức Du lịch Miền Tây</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script>
+         $(document).ready(function() {
+           $(".menu li").hover(function() {
+             $(this).find("ul:first").slideDown(500);
+           }, function() {
+             $(this).find("ul:first").hide(300);
+           });
+         });
+         $(document).ready(function() {
+          // $("#hide").click(function() {
+            $(".show").hide();
+          // });
+          $("#show").click(function() {
+            $(".show").show();
+           $("#show").hide();
+          })
+         });
+         $(document).ready(function() {
+          // $("#hide").click(function() {
+            $(".show1").hide();
+          // });
+          $("#show1").click(function() {
+            $(".show1").show();
+           $("#show1").hide();
+          })
+         });
+      </script>
+   </body>
+</html>

@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name=description content="">
+      <meta name=viewport content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <title>An Giang</title>
+      <style>
+         *{
+         margin: 0;
+         padding: 0;
+         }
+         .container .tag a{
+         display: inline-block;
+         padding: 7px 15px;
+         margin-right: 10px;
+         margin-bottom: 10px;
+         padding-top: 40px;
+         text-decoration: none;
+         color: black;
+         }
+         .container .tag a:hover{
+         }
+
+         .footer h4{
+         color: #B2910E;
+         font-size: 20px;
+      }
+      .footer button{
+      background-image: url(https://image.freepik.com/free-vector/background-template-with-chinese-patterns-red_1308-38164.jpg);
+      
+   }
+   .footer a{
+   text-decoration: none;
+   font-size: 14px;
+   color: black;
+}
+   .fot{
+      background-color: #EBEBEB;
+      width: 100%;
+      height: 578px;
+   }
+
+         .exam {                
+         background: url("https://upload.wikimedia.org/wikipedia/commons/1/1c/My_Thuan_Bridge_1.jpg")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam1 {                
+         background: url("https://media.baodautu.vn/Images/manhcuong/2019/05/03/bac-lieu-tien-phong-phat-trien-nang-luong-tai-tao1556821060.jpg")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam1:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam2 {                
+         background: url("https://storage.googleapis.com/blog-vxr-uploads/2019/02/du-l%E1%BB%8Bch-c%E1%BA%A7n-th%C6%A1-Saifgon-Star-Travel-752x440.jpg")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam2:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .zoom4 {
+         box-sizing: border-box;
+         overflow: hidden;
+         position: relative;
+         }
+         .layer {
+         position: absolute;
+         bottom: 0px;
+         left: 0;
+         background-color: #00000066;
+         color: white;
+         width: 350px;
+         height: 64px;
+         font-size: 18px;
+         }
+         .fot .row{
+            padding-top: 50px;
+         }
+         .fot h1 {
+            font-family: Helvetica;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 80px
+         }
+         h3 {
+            color: #9E0B0F;
+            font-size: 20px;
+            font-family: VNFGothamBold,Helvetica,Arial,sans-serif;
+            margin: 20px 0px 10px 0px;
+         }
+         img {
+            margin: 15px 0px;
+         }
+         h5 {
+            color: #848484;
+         }
+         p{
+            font-size: 17px
+         }
+         hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-bottom: 1px solid #eee
+         }
+         .wid img{
+            width: 750px;
+            height: 500px;
+         }
+         ul {
+         list-style: none;
+         }
+         .menu a {
+         text-decoration: none;
+         color: gray
+         }
+         .menu ul {
+         position: absolute;
+         left: 0px;
+         display: none; 
+         width: 100%;
+         z-index: 1;
+         }
+         .menu > li {
+         float: left;
+         text-align: center;
+         padding: 20px
+         }
+         .menu li li {
+            float: left;
+         }
+         .menu li:hover {
+         background: #EBEBEB;
+         cursor: pointer;
+         }
+         .menu li:hover a{
+            color: #A5190E
+         }
+         .menu > li {
+            padding: 40px 20px 20px 20px;
+            z-index: 1;
+         } 
+         .menu ul ul {
+         left: 150px;
+         top: 0;
+         }
+         .menu li li{
+         width: calc(100% / 4);
+         height: 400px;
+         line-height: 0px;
+         background-color: #EBEBEB;
+         color: black
+         }
+         .menu li ul {
+         padding-top: 18px
+         }
+         .menu .item li a{
+            color: black;
+         }
+         .w3-content {
+            padding-left: 20px
+         }
+         .item li p {
+            padding: 10px;
+            text-align: center;
+         }
+         .item li{
+            padding-top:  70px;
+         }
+         .sir li > p{
+            color: #B2910E
+         }
+         .ind a{
+            z-index: 2;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="row ind">
+            <a href=""><img src="https://mir-s3-cdn-cf.behance.net/projects/404/f0ebf338211777.Y3JvcCwxMzc5LDEwODAsMjcwLDA.jpg" width="152" height="117" alt=""></a>
+            <div class="w3-content">
+               <ul class="menu">
+                  <li><a href="#"><b>Những nơi để đi</b></a>
+                     <ul class="item sir">
+                        <li style="padding-left: 200px">
+                           <p style="padding-left: 40px"><b>CÁC TỈNH ĐỂ ĐI</b></p>
+                           <p style="padding-right: 32px; padding-top: 20px"><a href="angiang.html">An Giang</a></p>
+                           <p style="padding-right: 40px"><a href="baclieu.html">Bạc Liêu</a></p>
+                           <p style="padding-right: 45px"><a href="bentre.html">Bến Tre</a></p>
+                           <p style="padding-right: 43px"><a href="camau.html">Cà Mau</a></p>
+                           <p style="padding-right: 37px"><a href="cantho.html">Cần Thơ</a></p>
+                        </li>
+                        <li style="padding-left: 100px">
+                           <p style="padding-left: 40px"><b>CÁC TỈNH ĐỂ ĐI</b></p>
+                           <p style="padding-right: 20px; padding-top: 20px"><a href="dongthap.html">Đồng Tháp</a></p>
+                           <p style="padding-right: 25px"><a href="haugiang.html">Hậu Giang</a></p>
+                           <p style="padding-right: 23px"><a href="kiengiang.html">Kiên Giang</a></p>
+                           <p style="padding-right: 40px"><a href="longan.html">Long An</a></p>
+                        </li>
+                        <li>
+                           <p style="padding-left: 40px"><b>CÁC TỈNH ĐỂ ĐI</b></p>
+                           <p style="padding-top: 25px; padding-right: 25px"><a href="soctrang.html">Sóc Trăng</a></p>
+                           <p style="padding-right: 22px"><a href="tiengiang.html">Tiền Giang</a></p>
+                           <p style="padding-right: 39px"><a href="travinh.html">Trà Vinh</a></p>
+                           <p style="padding-right: 21px"><a href="vinhlong.html">Vĩnh Long</a></p>
+                        </li>
+                        <li>
+                           <img src="https://www.vietfuntravel.com.vn/image/data/Blog/DiaDiem/ban-do-du-lich-13-tinh-mien-tay-nam-bo/ban-do-du-lich-13-tinh-mien-tay-nam-bo-0.jpg.png" width="300px" height="300px" alt="">
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="#"><b>Những việc cần làm</b></a></li>
+                  <li>
+                     <a href="#"><b>Lên kế hoạch cho chuyến đi của bạn</b></a>
+                     <ul class="item">
+                        <li>
+                              <p href="#"><a href="angiang.html">Đến Miền Tây</a></p>
+                              <p style="padding-left: 34px" href="#"><a href="bentre.html">Đi khắp Miền Tây</a></p>
+                              <p style="padding-right: 41px" href="#"><a href="noi.html">Sức khỏe</a></p>
+                              <p style="padding-right: 50px" href="#"><a href="noi.html">An toàn</a></p>
+                              <p style="padding-right: 20px" href="#"><a href="noi.html">Phương tiện</a></p>
+                        </li>
+                        <li>
+                              <p style="padding-left: 25px; color: #B2910E"><b>CÁC CHUYẾN ĐI ĐƯỢC ĐỀ XUẤT</b></p>
+                              <p style="padding-top: 20px; padding-right: 50px"><a href="">Điểm nổi bật của Miền Tây</a></p>
+                              <p style="padding-right: 125px"><a href="">Di sản Miền Tây</a></p>
+                              <p style="padding-right: 60px"><a href="">Xem tất cả các chuyến đi</a></p>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <img src="https://file.vforum.vn/hinh/2018/03/hinh-anh-hinh-nen-song-nuoc-dep-song-nuoc-mien-tay-que-huong-10.jpg" width="220px" height="220px" alt="">
+                           </a>
+                        </li>
+                        <li style="padding-right: 180px; margin: 0px">
+                           <a href="#">
+                              <img src="https://cafefcdn.com/thumb_w/650/2017/photo-6-1508126712679.jpg" width="220px" height="220px" alt="">
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="#"><b>Du lịch xanh</b></a></li>
+                  <li><a href="#"><b>Miền Tây bây giờ</b></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid mt-3" style="padding: 0px">
+         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="https://huongsacmientay.com/wp-content/uploads/2020/03/tinh-an-giang.jpg" class="d-block w-100" alt="...">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container mt-5">
+         <div class="form-group">
+            <div class="row">
+               <div class="col-md-3"></div>
+               <div class="col-md-3"></div>
+               <div class="col-md-3"></div>
+               <div class="col-md-3">
+                  <div class="row">
+                     <div>
+                        <a href=""><img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-2_4.jpg" width="22px" height="22px" alt=""></a>
+                     </div>
+                     <div>
+                        <a href=""><img style="padding-left: 3px;" src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-3_6.jpg" width="25px" height="22px" alt=""></a>
+                     </div>
+                     <div>
+                        <a href=""><img style="padding-left: 3px" src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-4_4.jpg" width="25px" height="22px" alt=""></a>
+                     </div>
+                     <div>
+                        <a href=""><img style="padding-left: 3px" src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web_4.jpg" width="25px" height="22px" alt=""></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row wid">
+            <div class="col-xs-12 col-md-2"></div>
+            <div class="col-xs-12 col-md-8">
+               
+                  <i><p style="font-size: 20px"><b>An Giang</b> là 1 tỉnh nhỏ của đất nước ta. Diện tích <b>An Giang</b> bằng 1,03% diện tích cả nước và đứng thứ 4 so với 13 tỉnh đồng bằng sông Cửu Long. Phía bắc và tây bắc giáp hai tỉnh Kandal và Takéo của Campuchia với đường biên giới dài gần 104 km. Phía tây nam giáp tỉnh Kiên Giang và phía nam giáp thành phố Cần Thơ. Ở đây có rất nhiều đặc sản, món ăn ngon ngoài ra còn có những thắng cảnh tiêu biểu. Cùng đi khám phá <b>An Giang</b> nhé.</p></i>
+                  <hr>
+                  <h2>Địa điểm du lịch</h2>
+                  <hr>
+                  <h3>Thành phố Châu Đốc</h3>
+                  <p>
+                     Nổi tiếng với Lễ hội vía Bà Chúa Xứ núi Sam, cùng nhiều di tích lịch sử, tôn giáo quan trọng như: Lăng Thoại Ngọc Hầu, chùa Tây An, Chùa Phước Điền…
+                  </p>
+               	<p>
+               		<img src="https://media.vietravel.net/Images/news/le-hoi-via-ba.jpg"alt="">
+               	</p>
+                  <p>
+                     <img src="https://thamhiemmekong.com/wp-content/uploads/2019/09/lang-thoai-ngoc-hau-9.jpg" alt="">
+                  </p>
+               	<p>
+               		Ngoài ra còn có các làng Chăm ven sông Hậu, làng bè Châu Đốc…
+               	</p>
+                  <p>
+                     <img src="https://www.phunu8.vn/PhuNu8DuLieu/PhuNu8HinhAnh/2_47.jpg" alt="">
+                  </p>
+				<hr>
+				<h3>Thất Sơn (Bảy Núi)</h3>
+            <p>
+                     <img src="https://4.bp.blogspot.com/-Sfy6jfQXzg8/WMn4pmiR2ZI/AAAAAAAAAUM/CaOSjRVXQY8NXHUEs-lIUulD35rF8p82ACLcB/s1600/nui%2Bcam%2Bmot%2Btrong%2B7%2Bngon%2Bnui%2Ban%2Bgiang.jpg"alt="">
+                  </p>
+				<p>7 ngọn núi ở đây được biết đến với những cái tên: <i><b>Núi Cấm (Thiên Cẩm Sơn), Núi Dài Năm Giếng (Ngũ Hồ Sơn), Núi Cô Tô (Phụng Hoàng Sơn), Núi Dài (Ngọa Long Sơn), Núi Tượng (Liên Hoa Sơn), Núi Két (Anh Vũ Sơn) và Núi Nước (Thủy Đài Sơn)</b></i>.</p>
+				<hr>
+				<h3>Hồ Thoại Sơn</h3>
+				<p>
+					<img src="https://thamhiemmekong.com/wp-content/uploads/2019/10/khu-du-lich-nui-sap.jpg"alt="">
+				</p>
+				<p>
+					Khu du lịch Núi Sập – Một trong những điểm du lịch sinh thái nổi bật tại <i>An Giang</i> nằm trên địa bàn thị trấn Núi Sập, huyện Thoại Sơn, tỉnh <i>An Giang</i>. Khu du lịch Núi Sập là tên gọi chung của cụm địa điểm tham quan nổi tiếng là Hồ Ông Thoại và Đền thờ Thoại Ngọc Hầu. Đây là cảnh quan do bàn tay con người tôn tạo hài hòa cùng với thiên nhiên. Không chỉ vậy, nơi đây còn mang nhiều dấu ấn của một thời mở cõi hào hùng.
+				</p>
+            <p>
+               <img src="https://thamhiemmekong.com/wp-content/uploads/2019/10/khu-du-lich-ho-ong-thoai-2.jpg" alt="">
+            </p>
+            <p>
+               Núi Sập hay còn được biết đến với cái tên Thoại Sơn và đây cũng là ngọn núi lớn nhất trong cụm núi bao gồm: núi Sập, núi Nhỏ, núi Bà và núi Cậu, những ngọn núi tuy nhỏ nhưng góp phần đáng kể tạo nên diện mạo độc đáo, tươi đẹp cho vùng quê hương Bảy Núi.
+            </p>	
+				<hr>
+				<h3>Búng Bình Thiên</h3>
+            <p>
+               <img src="https://thamhiemmekong.com/wp-content/uploads/2019/11/bung-binh-thien1.jpg"alt="">
+            </p>
+				<p>
+					<i>Búng Bình Thiên</i> bao gồm 2 hồ nước đó là Búng Lớn và Búng Nhỏ. Trong đó, tên gọi của hồ ám chỉ Búng Lớn có diện tích mặt nước là 193 ha có độ sâu trung bình khoảng 5 m. Du khách có thể tới với Búng vào bất cứ thời điểm trong năm, tuy nhiên theo kinh nghiệm của những người đi rồi cho biết du lịch vào mùa nước nổi là đẹp nhất (từ tháng 7 đến tháng 10 âm lịch).
+				</p>
+            <p>
+               <img src="https://thamhiemmekong.com/wp-content/uploads/2019/11/bung-binh-thien.jpg" alt="">
+            </p>
+            <p>
+               Tháng 8 hàng năm, dòng sông Me Kong cuồn cuộn đổ nước từ Campuchia vào Việt Nam tạo thành những cơn lũ đầu nguồn sông Tiền, sông Hậu. Nước lũ tràn bờ, chảy vào làm 2 hồ hòa làm một, chìm ngập trong biển nước mênh mông, diện tích mặt nước vào mùa nước nổi lên đến 900 ha. Mặt hồ phủ kín sen, súng, lục bình tạo nên một bức tranh nên thơ, tràn đầy sức sống.
+            </p>
+				<hr>
+				<h3>Khu lưu niệm Chủ tịch Tôn Đức Thắng</h3>	
+				<p>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/%C4%90%E1%BB%81n_th%E1%BB%9D_Ch%E1%BB%A7_t%E1%BB%8Bch_T%C3%B4n_%C4%90%E1%BB%A9c_Th%E1%BA%AFng.jpg"alt="">
+				</p>
+				<p>
+					Đến <i>An Giang bạn không thể không ghé đến Khu lưu niệm Chủ tịch Tôn Đức Thắng. Khu lưu niệm Chủ tịch Tôn Đức Thắng tọa lạc trên cù lao Ông Hổ, thuộc xã Mỹ Hòa Hưng, thành phố Long Xuyên, tỉnh <i>An Giang</i>. Đây là một trong số 23 di tích Việt Nam đã được xếp hạng di tích quốc gia đặc biệt.</i>
+				</p>
+            <p>
+               <img src="https://baocantho.com.vn/image/tsdt/2019/20191018/images/anh%204.JPG" alt="">
+            </p>
+				<hr>
+
+				<h3>Một số điểm du lịch về Văn hoá – lịch sử – tâm linh</h3>
+            <p style="margin: 0px">Dinh Ông Chưởng (Kiến An, Chợ Mới)</p>
+            <p>
+               <img src="https://thamhiemmekong.com/wp-content/uploads/2019/12/cu-lao-ong-chuong-1.jpg"alt="">
+            </p>
+				<p style="margin: 0px">
+					Khu Di tích văn hoá Óc Eo ở xã Ba Thê
+				</p>
+            <p>
+               <img src="https://media-image.giadinhvaphapluat.vn/thumb_x650x330/2018/11/27/1543307777-160-an-giang-di-tich-oc-eo-ba-the-diem-du-lich-van-hoa-ly-tuong.jpg" alt="">
+            </p>
+            <p>
+               <img src="https://lh3.googleusercontent.com/proxy/LjompD9DpKo5P6MiAHizd3_CFKc_TVl6sJyiXAnSRLu2S0G30Zfpnyf16l9bHzx3vYzAdApktmRYT3suQE-U-krHFqY5NW0pXcag49aV_wYvfoEW_qAfCCuer1xBkVw" alt="">
+            </p>
+				<hr>
+            <h2>Đặc sản</h2>
+				<h3>Mắm Châu Đốc</h3>
+				<p>
+					<img src="https://imgs.vietnamnet.vn/Images/vnn/2014/12/05/10/20141205101157-1.jpg"alt="">
+				</p>
+            <p>
+               <img src="https://i-ngoisao.vnecdn.net/2015/01/07/13-5042-1420621547.jpg" alt="">
+            </p>
+				<p>
+					Mắm Châu Đốc vô cùng nổi tiếng, có bán khắp nơi An Giang nhưng tập trung nhiều nhất là ở chợ Châu Đốc.
+				</p>
+				<hr>
+            <h3>Gỏi sầu đâu</h3>
+            <p>
+               <img src="https://dacsanmuicamau.com/static/team/upload/images/am-thuc/goi-la-sau-dau-kho-sac/goi-sau-dau-kho-ca-sac-1.jpg" alt="">
+            </p>
+            <p>
+               Cây sầu đâu mọc nhiều ở các vùng Tân Châu, Tri Tôn, Châu Đốc, Tịnh Biên (An Giang). Người miền Tây thường làm món gỏi sầu đâu khô cá lóc hoặc khô cá sặc.
+            </p>
+            <hr>
+            <h3>Bò cạp Bảy Núi</h3>
+            <p>
+               <img src="https://kenh14cdn.com/thumb_w/660/2019/1/15/bo-cap-1-baomoicom-15475257805121003989667.jpg" alt="">
+            </p>
+            <p>
+               Bò cạp hay còn gọi là “bù kẹp”, có màu đen nhánh, hai càng to kềnh, to cỡ con dế cơm. Thoạt nhìn bò cạp trông giống như con gián bò lổn ngổn. Về vùng Bảy Núi có thể thấy loại này được bán dọc hai bên đường là đặc sản thú vị chỉ có thể khám phá khi về An Giang.
+            </p>
+            <hr>
+            <h3>Tung lò mò</h3>
+            <p>
+               <img src="https://icdn.dantri.com.vn/thumb_w/640/125b55411d/2018/01/26/img20180126193943069-0492b.jpg" alt="">
+            </p>
+            <p>
+               “Tung lò mò” chính là một tên gọi khác của món lạp xưởng bò. Đây là món ngon độc đáo của người Chăm ở An Giang. Từ lâu, người Kinh cũng ưa thích và chế biến món lạp xưởng bò gần giống như của người Chăm và hiện phổ biến rộng rãi ở Tân Châu(xã Châu Phong), Châu Đốc, Tịnh Biên và Tri Tôn.
+            </p>
+            <hr>
+            <h3>Thốt nốt</h3>
+            <p>
+               <img src="https://icdn.dantri.com.vn/2017/thot-not-1503985791301.jpg" alt="">
+            </p>
+            <p>
+               Cây thốt nốt không chỉ là một trong những biểu tượng của An Giang mà nó còn sản sinh ra nhiều đặc sản hấp dẫn như bánh, nước uống, từ thốt nốt.
+            </p>
+            <p>Ngoài ra còn nhiều đặc sản hấp dẫn ở An Giang như cốm dẹp, cà na đập dập, hồng quân, trái mây….</p>
+				<i><h5>Muốn có thêm ý tưởng du lịch Miền Tây? <a href="">Đăng ký nhận bản tin của chúng tôi</a> để nhận những câu chuyện hay nhất của chúng tôi trong hộp thư đến của bạn.</h5></i>
+            </div>
+            <div class="col-xs-12 col-md-2"></div>
+         </div>
+      </div>
+      <div class="container-fluid fot">
+         <div class="container">
+            <div>
+               <h1>Đọc thêm</h1>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="zoom4">
+                     <div class="exam">
+                        
+                     </div>
+                     <div class="layer">
+                        <b><p>TÌM HIỂU VỀ VĨNH LONG</p></b>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="zoom4">
+                     <div class="exam1">
+                        
+                     </div>
+                     <div class="layer">
+                        <b><p>TÌM HIỂU VỀ BẠC LIÊU</p></b>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="zoom4">
+                     <div class="exam2">
+                        
+                     </div>
+                     <div class="layer">
+                        <b><p>TÌM HIỂU VỀ CẦN THƠ</p></b>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer">
+         <div class="container-fluid pt-5">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4" style="padding: 0px; margin: 0px">
+                     <div>
+                        <h4>ĐĂNG KÝ NHẬN BẢN TIN CỦA CHÚNG TÔI</h4>
+                     </div>
+                     <div>
+                        <p style="font-size: 14px">Nhận các câu chuyện du lịch mới từ Miền Tây mỗi tháng một lần trong hộp thư đến của bạn.</p>
+                     </div>
+                     <div>
+                        <form action="">
+                           <div>
+                              <input type="text" name="" placeholder="Email của bạn" size="44px" style="padding: 10px"/>
+                           </div>
+                           <div style="padding-top: 10px">
+                              <button type="button" class="btn btn-danger" style="width: 375px; height: 50px">ĐĂNG KÝ</button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="col-md-3" style="padding-left: 100px">
+                     <div>
+                        <div>
+                           <h4>LIÊN KẾT HỮU ÍCH</h4>
+                        </div>
+                        <div>
+                           <div>
+                              <a href="">Chính sách bảo mật</a>
+                           </div>
+                           <div>
+                              <a href="">Thị thực cho Miền Tây</a>
+                           </div>
+                           <div>
+                              <a href="">Điều khoản và điều kiện</a>
+                           </div>
+                           <div>
+                              <a href="">Câu hỏi thường gặp</a>
+                           </div>
+                           <div>
+                              <a href="">Sơ đồ trang web</a>
+                           </div>
+                           <div>
+                              <a href="">Phương tiện truyền thông tin tức</a>
+                           </div>
+                           <div>
+                              <a href="">Tài nguyên Công nghiệp</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-5" style="padding-left: 80px">
+                     <div>
+                        <h4>THEO DÕI CHÚNG TÔI TẠI</h4>
+                     </div>
+                     <div class="row" style="padding-left: 15px; padding-top: 5px">
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-2_4.jpg" width="34px" height="34px" alt="">
+                        </div>
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-3_6.jpg" width="34px" height="34px" alt="">
+                        </div>
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-4_4.jpg" width="34px" height="34px" alt="">
+                        </div>
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web_4.jpg" width="34px" height="34px" alt="">
+                        </div>
+                     </div>
+                     <div style="padding-top: 30px">
+                        <i>
+                           <p>Chào mừng bạn đến với trang web chính thức của Tổng cục Du lịch Miền Tây. Ghé thăm các trang truyền thông xã hội của chúng tôi để có thêm cảm hứng du lịch.</p>
+                        </i>
+                     </div>
+                  </div>
+               </div>
+               <div class="container" style="padding-top: 80px">
+                  <hr style="border-bottom: 1px solid red">
+               </div>
+               <div class="container">
+                  <p style="text-align: center;">© 2016 Trang web chính thức Du lịch Miền Tây</p>
+               </div>
+            </div>
+         </div>
+      </div>      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script>
+         $(document).ready(function() {
+           $(".menu li").hover(function() {
+             $(this).find("ul:first").slideDown(500);
+           }, function() {
+             $(this).find("ul:first").hide(300);
+           });
+         });
+         $(document).ready(function() {
+          // $("#hide").click(function() {
+            $(".show").hide();
+          // });
+          $("#show").click(function() {
+            $(".show").show();
+           $("#show").hide();
+          })
+         });
+         $(document).ready(function() {
+          // $("#hide").click(function() {
+            $(".show1").hide();
+          // });
+          $("#show1").click(function() {
+            $(".show1").show();
+           $("#show1").hide();
+          })
+         });
+      </script>
+   </body>
+</html>

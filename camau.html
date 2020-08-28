@@ -1,0 +1,570 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name=description content="">
+      <meta name=viewport content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <title>Cà Mau</title>
+      <style>
+         *{
+         margin: 0;
+         padding: 0;
+         }
+         .container .tag a{
+         display: inline-block;
+         padding: 7px 15px;
+         margin-right: 10px;
+         margin-bottom: 10px;
+         padding-top: 40px;
+         text-decoration: none;
+         color: black;
+         }
+         .container .tag a:hover{
+         }
+
+         .footer h4{
+         color: #B2910E;
+         font-size: 20px;
+      }
+      .footer button{
+      background-image: url(https://image.freepik.com/free-vector/background-template-with-chinese-patterns-red_1308-38164.jpg);
+      
+   }
+   .footer a{
+   text-decoration: none;
+   font-size: 14px;
+   color: black;
+}
+   .fot{
+      background-color: #EBEBEB;
+      width: 100%;
+      height: 578px;
+   }
+
+         .exam {                
+         background: url("https://vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2017-07/best-vietnamese-dishes.jpg?itok=QU2MexEu")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam1 {                
+         background: url("https://vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2018-09/Desserts%20of%20Vietnam%20Banner-3.jpg?itok=aHO3dLq3")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam1:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam2 {                
+         background: url("https://vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2018-07/best%20fruits%20in%20vietnam.jpg?itok=-nKnATfv")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam2:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .zoom4 {
+         box-sizing: border-box;
+         overflow: hidden;
+         position: relative;
+         }
+         .layer {
+         position: absolute;
+         bottom: 0px;
+         left: 0;
+         background-color: #00000066;
+         color: white;
+         width: 350px;
+         height: 64px;
+         font-size: 18px;
+         }
+         .fot .row{
+            padding-top: 50px;
+         }
+         .fot h1 {
+            font-family: Helvetica;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 80px
+         }
+         h3 {
+            color: #9E0B0F;
+            font-size: 20px;
+            font-family: VNFGothamBold,Helvetica,Arial,sans-serif;
+            margin: 20px 0px 10px 0px;
+         }
+         img {
+            margin: 15px 0px;
+         }
+         h5 {
+            color: #848484;
+         }
+         p{
+            font-size: 17px
+         }
+         hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-bottom: 1px solid #eee
+         }
+         .wid img{
+            width: 750px;
+            height: 500px;
+         }
+         ul {
+         list-style: none;
+         }
+         .menu a {
+         text-decoration: none;
+         color: gray
+         }
+         .menu ul {
+         position: absolute;
+         left: 0px;
+         display: none;
+         z-index: 1; 
+         width: 100%;
+         }
+         .menu > li {
+         float: left;
+         text-align: center;
+         padding: 20px
+         }
+         .menu li li {
+            float: left;
+         }
+         .menu li:hover {
+         background: #EBEBEB;
+         cursor: pointer;
+         }
+         .menu li:hover a{
+            color: #A5190E
+         }
+         .menu > li {
+            padding: 40px 20px 20px 20px;
+         } 
+         .menu ul ul {
+         left: 150px;
+         top: 0;
+         }
+         .menu li li{
+         width: calc(100% / 4);
+         height: 400px;
+         line-height: 0px;
+         background-color: #EBEBEB;
+         color: black
+         }
+         .menu li ul {
+         padding-top: 18px
+         }
+         .menu .item li a{
+            color: black;
+         }
+         .w3-content {
+            padding-left: 20px
+         }
+         .item li p {
+            padding: 10px;
+            text-align: center;
+         }
+         .item li{
+            padding-top:  70px;
+         }
+         .sir li > p{
+            color: #B2910E
+         }
+         .ind a{
+            z-index: 2;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="row ind">
+            <a href=""><img src="https://mir-s3-cdn-cf.behance.net/projects/404/f0ebf338211777.Y3JvcCwxMzc5LDEwODAsMjcwLDA.jpg" width="152" height="117" alt=""></a>
+            <div class="w3-content">
+               <ul class="menu">
+                  <li><a href="#"><b>Những nơi để đi</b></a>
+                     <ul class="item sir">
+                        <li style="padding-left: 200px">
+                           <p style="padding-left: 40px"><b>CÁC TỈNH ĐỂ ĐI</b></p>
+                           <p style="padding-right: 32px; padding-top: 20px"><a href="angiang.html">An Giang</a></p>
+                           <p style="padding-right: 40px"><a href="baclieu.html">Bạc Liêu</a></p>
+                           <p style="padding-right: 45px"><a href="bentre.html">Bến Tre</a></p>
+                           <p style="padding-right: 43px"><a href="camau.html">Cà Mau</a></p>
+                           <p style="padding-right: 37px"><a href="cantho.html">Cần Thơ</a></p>
+                        </li>
+                        <li style="padding-left: 100px">
+                           <p style="padding-left: 40px"><b>CÁC TỈNH ĐỂ ĐI</b></p>
+                           <p style="padding-right: 20px; padding-top: 20px"><a href="dongthap.html">Đồng Tháp</a></p>
+                           <p style="padding-right: 25px"><a href="haugiang.html">Hậu Giang</a></p>
+                           <p style="padding-right: 23px"><a href="kiengiang.html">Kiên Giang</a></p>
+                           <p style="padding-right: 40px"><a href="longan.html">Long An</a></p>
+                        </li>
+                        <li>
+                           <p style="padding-left: 40px"><b>CÁC TỈNH ĐỂ ĐI</b></p>
+                           <p style="padding-top: 25px; padding-right: 25px"><a href="soctrang.html">Sóc Trăng</a></p>
+                           <p style="padding-right: 22px"><a href="tiengiang.html">Tiền Giang</a></p>
+                           <p style="padding-right: 39px"><a href="travinh.html">Trà Vinh</a></p>
+                           <p style="padding-right: 21px"><a href="vinhlong.html">Vĩnh Long</a></p>
+                        </li>
+                        <li>
+                           <img src="https://www.vietfuntravel.com.vn/image/data/Blog/DiaDiem/ban-do-du-lich-13-tinh-mien-tay-nam-bo/ban-do-du-lich-13-tinh-mien-tay-nam-bo-0.jpg.png" width="300px" height="300px" alt="">
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="#"><b>Những việc cần làm</b></a></li>
+                  <li>
+                     <a href="#"><b>Lên kế hoạch cho chuyến đi của bạn</b></a>
+                     <ul class="item">
+                        <li>
+                              <p href="#"><a href="angiang.html">Đến Miền Tây</a></p>
+                              <p style="padding-left: 34px" href="#"><a href="bentre.html">Đi khắp Miền Tây</a></p>
+                              <p style="padding-right: 41px" href="#"><a href="noi.html">Sức khỏe</a></p>
+                              <p style="padding-right: 50px" href="#"><a href="noi.html">An toàn</a></p>
+                              <p style="padding-right: 20px" href="#"><a href="noi.html">Phương tiện</a></p>
+                        </li>
+                        <li>
+                              <p style="padding-left: 25px; color: #B2910E"><b>CÁC CHUYẾN ĐI ĐƯỢC ĐỀ XUẤT</b></p>
+                              <p style="padding-top: 20px; padding-right: 50px"><a href="">Điểm nổi bật của Miền Tây</a></p>
+                              <p style="padding-right: 125px"><a href="">Di sản Miền Tây</a></p>
+                              <p style="padding-right: 60px"><a href="">Xem tất cả các chuyến đi</a></p>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <img src="https://file.vforum.vn/hinh/2018/03/hinh-anh-hinh-nen-song-nuoc-dep-song-nuoc-mien-tay-que-huong-10.jpg" width="220px" height="220px" alt="">
+                           </a>
+                        </li>
+                        <li style="padding-right: 180px; margin: 0px">
+                           <a href="#">
+                              <img src="https://cafefcdn.com/thumb_w/650/2017/photo-6-1508126712679.jpg" width="220px" height="220px" alt="">
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="#"><b>Du lịch xanh</b></a></li>
+                  <li><a href="#"><b>Miền Tây bây giờ</b></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid mt-3" style="padding: 0px">
+         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="https://huongsacmientay.com/wp-content/uploads/2020/03/tinh-ca-mau.jpg" class="d-block w-100" alt="...">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container mt-5">
+         <div class="form-group">
+            <div class="row">
+               <div class="col-md-3"></div>
+               <div class="col-md-3"></div>
+               <div class="col-md-3"></div>
+               <div class="col-md-3">
+                  <div class="row">
+                     <div>
+                        <a href=""><img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-2_4.jpg" width="22px" height="22px" alt=""></a>
+                     </div>
+                     <div>
+                        <a href=""><img style="padding-left: 3px;" src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-3_6.jpg" width="25px" height="22px" alt=""></a>
+                     </div>
+                     <div>
+                        <a href=""><img style="padding-left: 3px" src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-4_4.jpg" width="25px" height="22px" alt=""></a>
+                     </div>
+                     <div>
+                        <a href=""><img style="padding-left: 3px" src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web_4.jpg" width="25px" height="22px" alt=""></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row wid">
+            <div class="col-xs-12 col-md-2"></div>
+            <div class="col-xs-12 col-md-8">
+               
+                  <i><p style="font-size: 20px"><b>Cà Mau</b> có diện tích là 5.331 km².Tỉnh Cà Mau là mảnh đất tận cùng của tổ quốc với 3 mặt tiếp giáp với biển: Phía Đông giáp với Biển Đông,Phía Tây và phía Nam giáp với vịnh Thái Lan, Phía Bắc giáp với các tỉnh Bạc Liêu, Kiên Giang
+                  Thành phố <b>Cà Mau</b> nằm trên trục đường quốc lộ 1A và quốc lộ 63, cách thành phố Cần Thơ 180 km, cách thành phố Hồ Chí Minh 380 km. Đường bờ biển của tỉnh Cà Mau dài gần 254 km, trong đó có 107 km bờ Biển Đông và 147 km bờ Biển Tây. Cùng đi khám phá <b>Cà Mau</b> nhé.</p></i>
+                  <hr>
+                  <h2>Địa điểm du lịch</h2>
+                  <hr>
+                  <h3>Chợ nổi Cà Mau</h3>
+                  <p>
+                     Chợ nổi Cà Mau nằm trên sông gành Hào, thuộc địa bàn phường 8 của trung tâm Cà Mau. Những trải nghiệm bạn nên thử khi đi chợ nổi Cà Mau như lênh đênh trên sông nước nghe câu hò điệu lý của người dân và hòa mình vào cuộc sống bận rộn, tập lập của họ hay thưởng thức trái cây miệt vườn cùng các đặc sản khác như hủ tiếu… 
+                  </p>
+               	<p>
+               		<img src="https://www.vietfuntravel.com.vn/image/data/Blog/DiaDiem/cho-noi-ca-mau/cho-noi-ca-mau-h1.jpg"alt="">
+               	</p>
+                  <p>
+                     <img src="https://media.gody.vn/images/ca-mau/cho-noi-ca-mau/12-2016/20161226100231-cho-noi-ca-mau-gody%20(2).jpg" alt="">
+                  </p>
+				      <hr>
+      				<h3>Hòn Đá Bạc</h3>
+                  <p>
+                     <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/08/3-2.jpg"alt="">
+                  </p>
+				<p>Hòn Đá Bạc là một hòn đảo cách thành phố Cà Mau 50 km theo đường thủy. hiện nay Hòn Đá Bạc thu hút nhiều khách du lịch lui tới bởi vẻ đẹp hoang sơ và kỳ thú. Cây cầu nối các hòn đảo để việc di chuyển được dễ dàng, bước trên cây cầu, bạn đã như lạc vào chốn bồng lai tiên cảnh.</p>
+				<hr>
+				<h3>Đầm Thị Tường</h3>
+				<p>
+					<img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/08/4-2-768x512.jpg"alt="">
+				</p>
+				<p>
+					Nằm cách thành phố Cà Mau khoảng 40km, Đầm Thị Tường là một trong những đầm nuôi tôm cá lớn nhất Cà Mau. Đầm Thị Tường là đầm nước tự nhiên có diện tích lớn nhất vùng Đồng bằng sông Cửu Long và được mệnh danh là “biển Hồ giữa đồng bằng”.
+				</p>
+            <p>
+               <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/08/5.gif" alt="">
+            </p>
+            <p>
+                Đầm Thị Tường là nơi sinh sống của các loại thủy sản nước lợ như tôm sú, cua và nhiều loại sinh vật đa dạng khác. Cư dân sinh sống quanh đầm chủ yếu bằng nguồn lợi thủy hải sản khai thác được từ đầm này. Du khách đến đây sẽ được hòa mình vào một cuộc sống bình dị của thiên nhiên và con người nơi đây.
+            </p>	
+				<hr>
+				<h3>Rừng ngập mặn</h3>
+            <p>
+               <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/08/5-2.jpg"alt="">
+            </p>
+				<p>
+					<i>Rừng ngập mặn Cà Mau</i> Cách thành phố Cà Mau khoảng 60 km và sau hơn giờ đi bằng tàu cao tốc du khách sẽ được khám phá rừng ngập mặn Cà Mau – khu rừng ngập mặn lớn thứ 2 trên thế giới, sau rừng Amazon ở Nam Mỹ.
+               Thảm thực vật ở đây phong phú với nhiều loại như:Đước, mắm,Dương xỉ, dá, dây leo,Đã tới rừng ngập mặn bạn không thể không đi xuống trên sông, len lỏi vào giữa rừng cây xanh mát
+				</p>
+				<hr>
+				<h3>Đảo Hòn Khoai</h3>	
+				<p>
+					<img src="https://thamhiemmekong.com/wp-content/uploads/2020/04/honkhoai2.jpg"alt="">
+				</p>
+				<p>
+					Đảo Hòn Khoai (hay còn được gọi là hòn Giáng Tiên, hòn Độc Lập) thuộc huyện Ngọc Hiển, tỉnh Cà Mau, nằm cách đất liền 14,6km. Đây được coi là một trong những hòn đảo đẹp nhất cực Nam Tổ quốc.
+				</p>
+            <p>
+               <img src="https://thamhiemmekong.com/wp-content/uploads/2020/04/honkhoai.jpg" alt="">
+            </p>
+            <hr>
+            <h3>Khu du lịch biển Khai Long</h3> 
+            <p>
+               <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/08/11-4.jpg"alt="">
+            </p>
+            <p>
+               Khu du lịch biển Khai Long nằm ở vùng biển phía Đông Nam mũi Cà Mau. Đây là điểm hút du khách đến tham quan bởi hệ sinh thái rừng ngập mặn với nhiều rừng cây hoang sơ cùng bãi cát trắng mịn trải dài trên 3km.
+            </p>
+            <p>
+               <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/08/10-2.jpg" alt="">
+            </p>
+				<hr>
+            <h2>Đặc sản</h2>
+				<h3>Chuột đồng chiên sả ớt</h3>
+				<p>
+					<img src="https://www.yong.vn/Content/images/foods/chuot-dong-chien-sa-ot-ca-mau.jpg"alt="">
+				</p>
+				<p>
+					Các món ăn từ chuột đồng là món đặc sản đặc trưng của đồng ruộng miền Tây. Món ăn dân dã này được chế biến thành nhiều món khác nhau và một trong những kiểu chế biến ngon nhất là chiên sả ớt.
+				</p>
+				<hr>
+            <h3>Cá rô chiên xù</h3>
+            <p>
+               <img src="https://i1-dulich.vnecdn.net/2015/01/10/Hinh-02-IMG-0421-JPG-6669-1420865835.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=-Dnj77WokBXxPqN4rJq8Rw" alt="">
+            </p>
+            <p>
+               Cá rô được làm sạch, chiên nguyên con trong chảo nóng. Cá chín vớt ra để ráo dầu để lên dĩa kèm rau xanh. Món cá rô chiên xù có giá 90.000 và du khách có thể dùng thử tại canteen rừng U Minh Hạ.
+            </p>
+            <hr>
+            <h3>Lươn um rau ngổ</h3>
+            <p>
+               <img src="https://i1-dulich.vnecdn.net/2015/01/10/Hinh-03-IMG-0424-JPG-1410-1420865836.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=my-cfZ8WWViaVQBhUv6Bzg" alt="">
+            </p>
+            <p>
+              Lươn nguyên con làm sạch, chặt làm ba khúc nấu với gia vị riêng và nước dừa tươi tạo vị bùi béo thơm ngon rất đặc trưng. Du khách có thể gọi lươn nấu rau ngổ hoặc um lá nhàu tại canteen rừng U Minh Hạ với giá 160.000 một nồi.
+            </p>
+            <hr>
+            <h3>Bánh tầm gà cay</h3>
+            <p>
+               <img src="https://i1-dulich.vnecdn.net/2015/01/10/Hinh-04-IMG-0046-JPG-9637-1420865836.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=lSE3wBVYApeVVRo_Pzm4aQ" alt="">
+            </p>
+            <p>
+              Người Cà Mau kết hợp món bánh tầm với cà ri gà thành một món ăn đặc trưng của miền đất phương nam này. Dĩa bánh tầm được chan nước cà ri gà thêm phần thịt, mề và huyết được băm nhỏ chan lên ăn kèm với rau sống.
+            </p>
+            <hr>
+            <h3> Bún bì</h3>
+            <p>
+               <img src="https://i1-dulich.vnecdn.net/2015/01/10/Hinh-05-IMG-0052-JPG-1167-1420865836.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=j_EyiaiCKuCy4kYMwvzJCw" alt="">
+            </p>
+            <p>
+               Cây thốt nốt không chỉ là một trong những biểu tượng của An Giang mà nó còn sản sinh ra nhiều đặc sản hấp dẫn như bánh, nước uống, từ thốt nốt.
+            </p>
+            <p>Ngoài ra còn nhiều đặc sản hấp dẫn ở Cà Mau như Cua đá rang muối, Cá nhám hấp hành, Cá thòi lòi nướng , trái mây….</p>
+				<i><h5>Muốn có thêm ý tưởng du lịch Miền Tây? <a href="">Đăng ký nhận bản tin của chúng tôi</a> để nhận những câu chuyện hay nhất của chúng tôi trong hộp thư đến của bạn.</h5></i>
+            </div>
+            <div class="col-xs-12 col-md-2"></div>
+         </div>
+      </div>
+      <div class="container-fluid fot">
+         <div class="container">
+            <div>
+               <h1>Đọc thêm</h1>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="zoom4">
+                     <div class="exam">
+                        
+                     </div>
+                     <div class="layer">
+                        <b><p>TÌM HIỂU VỀ CẦN THƠ</p></b>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="zoom4">
+                     <div class="exam1">
+                        
+                     </div>
+                     <div class="layer">
+                        <b><p>TÌM HIỂU VỀ ĐỒNG THÁP</p></b>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="zoom4">
+                     <div class="exam2">
+                        
+                     </div>
+                     <div class="layer">
+                        <b><p>TÌM HIỂU VỀ HẬU GIANG</p></b>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer">
+         <div class="container-fluid pt-5">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4" style="padding: 0px; margin: 0px">
+                     <div>
+                        <h4>ĐĂNG KÝ NHẬN BẢN TIN CỦA CHÚNG TÔI</h4>
+                     </div>
+                     <div>
+                        <p style="font-size: 14px">Nhận các câu chuyện du lịch mới từ Miền Tây mỗi tháng một lần trong hộp thư đến của bạn.</p>
+                     </div>
+                     <div>
+                        <form action="">
+                           <div>
+                              <input type="text" name="" placeholder="Email của bạn" size="44px" style="padding: 10px"/>
+                           </div>
+                           <div style="padding-top: 10px">
+                              <button type="button" class="btn btn-danger" style="width: 375px; height: 50px">ĐĂNG KÝ</button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="col-md-3" style="padding-left: 100px">
+                     <div>
+                        <div>
+                           <h4>LIÊN KẾT HỮU ÍCH</h4>
+                        </div>
+                        <div>
+                           <div>
+                              <a href="">Chính sách bảo mật</a>
+                           </div>
+                           <div>
+                              <a href="">Thị thực cho Miền Tây</a>
+                           </div>
+                           <div>
+                              <a href="">Điều khoản và điều kiện</a>
+                           </div>
+                           <div>
+                              <a href="">Câu hỏi thường gặp</a>
+                           </div>
+                           <div>
+                              <a href="">Sơ đồ trang web</a>
+                           </div>
+                           <div>
+                              <a href="">Phương tiện truyền thông tin tức</a>
+                           </div>
+                           <div>
+                              <a href="">Tài nguyên Công nghiệp</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-5" style="padding-left: 80px">
+                     <div>
+                        <h4>THEO DÕI CHÚNG TÔI TẠI</h4>
+                     </div>
+                     <div class="row" style="padding-left: 15px; padding-top: 5px">
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-2_4.jpg" width="34px" height="34px" alt="">
+                        </div>
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-3_6.jpg" width="34px" height="34px" alt="">
+                        </div>
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-4_4.jpg" width="34px" height="34px" alt="">
+                        </div>
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web_4.jpg" width="34px" height="34px" alt="">
+                        </div>
+                     </div>
+                     <div style="padding-top: 30px">
+                        <i>
+                           <p>Chào mừng bạn đến với trang web chính thức của Tổng cục Du lịch Miền Tây. Ghé thăm các trang truyền thông xã hội của chúng tôi để có thêm cảm hứng du lịch.</p>
+                        </i>
+                     </div>
+                  </div>
+               </div>
+               <div class="container" style="padding-top: 80px">
+                  <hr style="border-bottom: 1px solid red">
+               </div>
+               <div class="container">
+                  <p style="text-align: center;">© 2016 Trang web chính thức Du lịch Miền Tây</p>
+               </div>
+            </div>
+         </div>
+      </div>      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script>
+         $(document).ready(function() {
+           $(".menu li").hover(function() {
+             $(this).find("ul:first").slideDown(500);
+           }, function() {
+             $(this).find("ul:first").hide(300);
+           });
+         });
+         $(document).ready(function() {
+          // $("#hide").click(function() {
+            $(".show").hide();
+          // });
+          $("#show").click(function() {
+            $(".show").show();
+           $("#show").hide();
+          })
+         });
+         $(document).ready(function() {
+          // $("#hide").click(function() {
+            $(".show1").hide();
+          // });
+          $("#show1").click(function() {
+            $(".show1").show();
+           $("#show1").hide();
+          })
+         });
+      </script>
+   </body>
+</html>

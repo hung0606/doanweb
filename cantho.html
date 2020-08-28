@@ -1,0 +1,589 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name=description content="">
+      <meta name=viewport content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <title>Cần Thơ</title>
+      <style>
+         *{
+         margin: 0;
+         padding: 0;
+         }
+         .container .tag a{
+         display: inline-block;
+         padding: 7px 15px;
+         margin-right: 10px;
+         margin-bottom: 10px;
+         padding-top: 40px;
+         text-decoration: none;
+         color: black;
+         }
+         .container .tag a:hover{
+         }
+
+         .footer h4{
+         color: #B2910E;
+         font-size: 20px;
+      }
+      .footer button{
+      background-image: url(https://image.freepik.com/free-vector/background-template-with-chinese-patterns-red_1308-38164.jpg);
+      
+   }
+   .footer a{
+   text-decoration: none;
+   font-size: 14px;
+   color: black;
+}
+   .fot{
+      background-color: #EBEBEB;
+      width: 100%;
+      height: 578px;
+   }
+
+         .exam {                
+         background: url("https://vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2017-07/best-vietnamese-dishes.jpg?itok=QU2MexEu")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam1 {                
+         background: url("https://vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2018-09/Desserts%20of%20Vietnam%20Banner-3.jpg?itok=aHO3dLq3")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam1:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam2 {                
+         background: url("https://vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2018-07/best%20fruits%20in%20vietnam.jpg?itok=-nKnATfv")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam2:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .zoom4 {
+         box-sizing: border-box;
+         overflow: hidden;
+         position: relative;
+         }
+         .layer {
+         position: absolute;
+         bottom: 0px;
+         left: 0;
+         background-color: #00000066;
+         color: white;
+         width: 350px;
+         height: 64px;
+         font-size: 18px;
+         }
+         .fot .row{
+            padding-top: 50px;
+         }
+         .fot h1 {
+            font-family: Helvetica;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 80px
+         }
+         h3 {
+            color: #9E0B0F;
+            font-size: 20px;
+            font-family: VNFGothamBold,Helvetica,Arial,sans-serif;
+            margin: 20px 0px 10px 0px;
+         }
+         img {
+            margin: 15px 0px;
+         }
+         h5 {
+            color: #848484;
+         }
+         p{
+            font-size: 17px
+         }
+         hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-bottom: 1px solid #eee
+         }
+         .wid img{
+            width: 750px;
+            height: 500px;
+         }
+         ul {
+         list-style: none;
+         }
+         .menu a {
+         text-decoration: none;
+         color: gray
+         }
+         .menu ul {
+         position: absolute;
+         left: 0px;
+         display: none;
+         z-index: 1;
+         width: 100%;
+         }
+         .menu > li {
+         float: left;
+         text-align: center;
+         padding: 20px
+         }
+         .menu li li {
+            float: left;
+         }
+         .menu li:hover {
+         background: #EBEBEB;
+         cursor: pointer;
+         }
+         .menu li:hover a{
+            color: #A5190E
+         }
+         .menu > li {
+            padding: 40px 20px 20px 20px;
+         } 
+         .menu ul ul {
+         left: 150px;
+         top: 0;
+         }
+         .menu li li{
+         width: calc(100% / 4);
+         height: 400px;
+         line-height: 0px;
+         background-color: #EBEBEB;
+         color: black
+         }
+         .menu li ul {
+         padding-top: 18px
+         }
+         .menu .item li a{
+            color: black;
+         }
+         .w3-content {
+            padding-left: 20px
+         }
+         .item li p {
+            padding: 10px;
+            text-align: center;
+         }
+         .item li{
+            padding-top:  70px;
+         }
+         .sir li > p{
+            color: #B2910E
+         }
+         .ind a{
+            z-index: 2;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="row ind">
+            <a href=""><img src="https://mir-s3-cdn-cf.behance.net/projects/404/f0ebf338211777.Y3JvcCwxMzc5LDEwODAsMjcwLDA.jpg" width="152" height="117" alt=""></a>
+            <div class="w3-content">
+               <ul class="menu">
+                  <li><a href="#"><b>Những nơi để đi</b></a>
+                     <ul class="item sir">
+                        <li style="padding-left: 200px">
+                           <p style="padding-left: 40px"><b>CÁC TỈNH ĐỂ ĐI</b></p>
+                           <p style="padding-right: 32px; padding-top: 20px"><a href="angiang.html">An Giang</a></p>
+                           <p style="padding-right: 40px"><a href="baclieu.html">Bạc Liêu</a></p>
+                           <p style="padding-right: 45px"><a href="bentre.html">Bến Tre</a></p>
+                           <p style="padding-right: 43px"><a href="camau.html">Cà Mau</a></p>
+                           <p style="padding-right: 37px"><a href="cantho.html">Cần Thơ</a></p>
+                        </li>
+                        <li style="padding-left: 100px">
+                           <p style="padding-left: 40px"><b>CÁC TỈNH ĐỂ ĐI</b></p>
+                           <p style="padding-right: 20px; padding-top: 20px"><a href="dongthap.html">Đồng Tháp</a></p>
+                           <p style="padding-right: 25px"><a href="haugiang.html">Hậu Giang</a></p>
+                           <p style="padding-right: 23px"><a href="kiengiang.html">Kiên Giang</a></p>
+                           <p style="padding-right: 40px"><a href="longan.html">Long An</a></p>
+                        </li>
+                        <li>
+                           <p style="padding-left: 40px"><b>CÁC TỈNH ĐỂ ĐI</b></p>
+                           <p style="padding-top: 25px; padding-right: 25px"><a href="soctrang.html">Sóc Trăng</a></p>
+                           <p style="padding-right: 22px"><a href="tiengiang.html">Tiền Giang</a></p>
+                           <p style="padding-right: 39px"><a href="travinh.html">Trà Vinh</a></p>
+                           <p style="padding-right: 21px"><a href="vinhlong.html">Vĩnh Long</a></p>
+                        </li>
+                        <li>
+                           <img src="https://www.vietfuntravel.com.vn/image/data/Blog/DiaDiem/ban-do-du-lich-13-tinh-mien-tay-nam-bo/ban-do-du-lich-13-tinh-mien-tay-nam-bo-0.jpg.png" width="300px" height="300px" alt="">
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="#"><b>Những việc cần làm</b></a></li>
+                  <li>
+                     <a href="#"><b>Lên kế hoạch cho chuyến đi của bạn</b></a>
+                     <ul class="item">
+                        <li>
+                              <p href="#"><a href="angiang.html">Đến Miền Tây</a></p>
+                              <p style="padding-left: 34px" href="#"><a href="bentre.html">Đi khắp Miền Tây</a></p>
+                              <p style="padding-right: 41px" href="#"><a href="noi.html">Sức khỏe</a></p>
+                              <p style="padding-right: 50px" href="#"><a href="noi.html">An toàn</a></p>
+                              <p style="padding-right: 20px" href="#"><a href="noi.html">Phương tiện</a></p>
+                        </li>
+                        <li>
+                              <p style="padding-left: 25px; color: #B2910E"><b>CÁC CHUYẾN ĐI ĐƯỢC ĐỀ XUẤT</b></p>
+                              <p style="padding-top: 20px; padding-right: 50px"><a href="">Điểm nổi bật của Miền Tây</a></p>
+                              <p style="padding-right: 125px"><a href="">Di sản Miền Tây</a></p>
+                              <p style="padding-right: 60px"><a href="">Xem tất cả các chuyến đi</a></p>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <img src="https://file.vforum.vn/hinh/2018/03/hinh-anh-hinh-nen-song-nuoc-dep-song-nuoc-mien-tay-que-huong-10.jpg" width="220px" height="220px" alt="">
+                           </a>
+                        </li>
+                        <li style="padding-right: 180px; margin: 0px">
+                           <a href="#">
+                              <img src="https://cafefcdn.com/thumb_w/650/2017/photo-6-1508126712679.jpg" width="220px" height="220px" alt="">
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="#"><b>Du lịch xanh</b></a></li>
+                  <li><a href="#"><b>Miền Tây bây giờ</b></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid mt-3" style="padding: 0px">
+         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="https://huongsacmientay.com/wp-content/uploads/2020/03/tinh-can-tho.jpg" class="d-block w-100" alt="...">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container mt-5">
+         <div class="form-group">
+            <div class="row">
+               <div class="col-md-3"></div>
+               <div class="col-md-3"></div>
+               <div class="col-md-3"></div>
+               <div class="col-md-3">
+                  <div class="row">
+                     <div>
+                        <a href=""><img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-2_4.jpg" width="22px" height="22px" alt=""></a>
+                     </div>
+                     <div>
+                        <a href=""><img style="padding-left: 3px;" src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-3_6.jpg" width="25px" height="22px" alt=""></a>
+                     </div>
+                     <div>
+                        <a href=""><img style="padding-left: 3px" src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-4_4.jpg" width="25px" height="22px" alt=""></a>
+                     </div>
+                     <div>
+                        <a href=""><img style="padding-left: 3px" src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web_4.jpg" width="25px" height="22px" alt=""></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row wid">
+            <div class="col-xs-12 col-md-2"></div>
+            <div class="col-xs-12 col-md-8">
+               
+                  <i><p style="font-size: 20px"><b>Cần Thơ</b>là một thành phố trực thuộc trung ương của Việt Nam, là thành phố hiện đại và phát triển nhất ở Đồng bằng sông Cửu Long.  <b>Cần Thơ</b> có diện tích 1.439,2km².Cần Thơ có tọa độ địa lý 105°13’38″ – 105°50’35″ kinh độ Đông và 9°55’08″ – 10°19’38″ vĩ độ Bắc, trải dài trên 60 km dọc bờ Tây sông Hậu. Phía bắc giáp tỉnh An Giang, phía đông giáp tỉnh Đồng Tháp và tỉnh Vĩnh Long, phía tây giáp tỉnh Kiên Giang, phía nam giáp tỉnh Hậu Giang. Diện tích nội thành là 53 km². Thành phố Cần Thơ có tổng diện tích tự nhiên là 1.409,0 km², chiếm 3,49% diện tích toàn vùng và dân số vào khoảng 1.400.200 người, mật độ dân số tính đến 2015 là 995 người/km². Cần Thơ là thành phố lớn thứ năm của cả nước, cũng là thành phố hiện đại và lớn nhất của cả vùng hạ lưu sông Mê Kông. Cùng đi khám phá <b>Cần Thơ</b> nhé.</p></i>
+                  <hr>
+                  <h2>Địa điểm du lịch</h2>
+                  <hr>
+                  <h3>Bãi biển nhân tạo Cần Thơ</h3>
+                  <p>
+                     Dù là thành phố không có biển nhưng lại sở hữu một địa điểm du lịch Cần Thơ mới – độc đáo: bãi tắm nhân tạo không bùn duy nhất dài tới 400m. Đây thực chất là 1 đoạn của bờ sông Hậu được đổ tới 1 triệu mét khối cát vàng nhằm lấp bùn tạo bờ biển với làn nước mát, sạch. Du khách đến đây sẽ cảm nhận sự giao thoa giữa biển và vùng đất sông nước trù phú và ngắm nhìn cây cầu Cần Thơ tuyệt đẹp.
+                  </p>
+               	<p>
+               		<img src="https://dulichtoday.vn/wp-content/uploads/2019/06/bai-bien-nhan-tao-can-tho.jpg"alt="">
+               	</p>
+                  <p>
+                     <img src="https://thamhiemmekong.com/wp-content/uploads/2019/06/bien-nhan-tao-can-tho-1.jpg" alt="">
+                  </p>
+				<hr>
+				<h3>Cánh đồng lúa Stiermanns</h3>
+            <p>
+                     <img src="https://nucuoimekong.com/wp-content/uploads/canh-dong-ta-pa-3.jpg"alt="">
+                  </p>
+				<p>Cánh đồng lúa Stiermanns là điểm du lịch Cần Thơ sinh thái mới đưa vào hoạt động cách đây không lâu (bắt đầu mở cửa từ ngày 23/3/2018). Về miền Tây sông nước và không ghé đến địa điểm này thì quả là một thiếu xót vô cùng lớn.
+            Với diện tích 1.2ha, trong đó 1ha được đầu tư làm vườn trái cây với hơn 600 cây trồng khác nhau như sầu riêng, cam, vú sữa, măng cầu cho đến mía, táo xanh, ổi, khế,… Với điểm du lịch này du khách được tự do thưởng thức trái cây do chính tay mình hái, hít thở không khí trong lành, gần gũi với sông suối. Ngoài ra tại đây cũng có chổ nghỉ dành cho các du khách được xây thành các bungalow vừa đẹp mặt lại rất gần gũi thân quen.</p>
+				<hr>
+				<h3> Chợ nổi Cái Răng</h3>
+				<p>
+					<img src="https://dulichtoday.vn/wp-content/uploads/2019/06/Cho-noi-cai-rang-dia-diem-du-lich-can-tho.jpg"alt="">
+				</p>
+				<p>
+					Chợ thì ở đâu chả có, nhưng chợ nổi trên sông thì chỉ có về miền Tây sông nước mới cảm nhận hết được điểm độc đáo và nét văn hóa của hoạt động này. Chợ nổi Cái răng là điểm du lịch Cần Thơ nổi tiếng và đông đúc nhất ở Đồng bằng sông Cửu Long.
+               Đến với điểm du lịch này du khách sẽ không khỏi bất ngờ trước khung cảnh nhộn nhịp của người dân địa phương chẳng hề kém cạnh những chợ trên cạn nổi tiếng. Vậy đi chợ Cái Răng Cần Thơ nên mua gì? ăn gì? Bạn có thể lựa chọn vô số thứ ở khu chợ nổi này từ những món ăn sáng bình dân như bún riêu, hủ tiếu, phở cho đến những ghe tàu chất đầy trái cây tươi ngon.
+				</p>
+            <p>
+               <img src="https://thamhiemmekong.com/wp-content/uploads/2019/04/chonoicairang-7.jpg" alt="">
+            </p>
+            <p>
+               Thời điểm tốt nhất để cảm nhận sự sôi nổi và náo nhiệt của chợ nổi Cái Răng khoảng 4h – 5h sáng, chợ sẽ kết thúc từ 8h – 9h. Đừng quên thưởng thức một bữa ăn sáng hấp dẫn ngay tại chợ nhé.
+               Giá cả tại chợ rất phải chăng, không hề có tình trạng “hét giá” nên du khách cứ yên tâm mà thưởng thức
+            </p>	
+				<hr>
+				<h3>Chợ đêm Tây Đô</h3>
+            <p>
+               <img src="https://dulichdongque.com/wp-content/uploads/2019/02/cho-dem-tay-do.jpg"alt="">
+            </p>
+				<p>
+					<i>Chợ đêm Tây Đô</i> Không giống như những khu chợ đêm lưu động, nhỏ, <i>Chợ đêm Tây Đô</i> rộng rãi và thông thoáng, giữa các rạp trại đều có lối đi rộng rãi để du khách di chuyển. Các mặt hàng buôn bán ở đây đa dạng, từ đồ trang sức thủ công, đồ lưu niệm, thức ăn đường phố,… Đến với chợ đêm Tây Đô du khách còn có cơ hội vui chơi tại khu vực trò chơi điện tử, hòa mình vào không khí sôi động của sân khấu ca nhạc ngoài trời,…
+				</p>
+            <p>
+               <img src="https://dulichtoday.vn/wp-content/uploads/2019/06/cho-dem-Tay-Do.jpg" alt="">
+            </p>
+            <p>
+              Đây thực sự là một nơi lý tưởng để cảm nhận sự giản dị, mộc mạc của người dân Cần Thơ. Các mức giá ở đây cũng rất phải chăng, dao động từ 20.000vnđ trở lên. Biết mặc cả sẽ là một lợi thế để bạn sở hữu những món đồ yêu thích với mức giá tốt.
+            </p>
+				<hr>
+				<h3>Vườn Cò Bằng Lăng</h3>	
+				<p>
+					<img src="https://dulichvietnam.com.vn/kinh-nghiem/wp-content/uploads/2020/08/vuon-co-bang-lang-1.jpg"alt="">
+				</p>
+				<p>
+					Nếu bạn hỏi “Tại sao nên đến Vườn Cò Bằng Lăng?” thì thiên nhiên trong lành, khung cảnh rộng lớn, quy tụ hơn 300.000 con cò với đa dạng về chủng loại khác nhau như cò cá, cò ruồi, cò bông, cò ma,.. vạc, bồ nông, cuốc,… có đủ sức thuyết phục bạn đến với điểm du lịch Cần Thơ này?
+               Vườn Cò Bằng Lăng – điểm du lịch sinh thái lớn nhất Cần Thơ
+               Không ngoa khi nói rằng Vườn Cò Bằng Lăng là  lớn nhất ở miền Tây sông nước. Cứ đến mùa Vườn Cò Bằng Lăng lại thu hút hơn 300.000 cá thể cò đến đây làm tổ, tạo nên bức tranh đầy sắc màu mà không nơi nào có được. Kinh nghiệm dành cho du khách nếu đến thăm vườn cò nổi tiếng này đó là nên canh lúc thời điểm đàn có trở về tổ là thời điểm đẹp nhất tại đây.
+				</p>
+            <p>
+               <img src="https://dulichtoday.vn/wp-content/uploads/2019/06/vuon-co-bang-lang-dia-diem-du-lich-can-tho.jpg" alt="">
+            </p>
+				<hr>
+
+				<h3>Một số điểm du lịch về Văn hoá – lịch sử – tâm linh</h3>
+            <p style="margin: 0px">Dinh Ông Chưởng (Kiến An, Chợ Mới)</p>
+            <p>
+               <img src="https://thamhiemmekong.com/wp-content/uploads/2019/12/cu-lao-ong-chuong-1.jpg"alt="">
+            </p>
+				<p style="margin: 0px">
+					Khu Di tích văn hoá Óc Eo ở xã Ba Thê
+				</p>
+            <p>
+               <img src="https://media-image.giadinhvaphapluat.vn/thumb_x650x330/2018/11/27/1543307777-160-an-giang-di-tich-oc-eo-ba-the-diem-du-lich-van-hoa-ly-tuong.jpg" alt="">
+            </p>
+            <p>
+               <img src="https://lh3.googleusercontent.com/proxy/LjompD9DpKo5P6MiAHizd3_CFKc_TVl6sJyiXAnSRLu2S0G30Zfpnyf16l9bHzx3vYzAdApktmRYT3suQE-U-krHFqY5NW0pXcag49aV_wYvfoEW_qAfCCuer1xBkVw" alt="">
+            </p>
+				<hr>
+            <h2>Đặc sản</h2>
+				<h3>Hủ tiếu khô Sa Đéc</h3>
+				<p>
+					<img src="https://loca.vn/wp-content/uploads/dac-san-can-tho-1.jpg"alt="">
+				</p>
+				<p>
+					Đây là một loại hủ tiếu đặc biệt của vùng Sa Đéc, một trong những đặc sản nổi tiếng của tỉnh Cần Thơ. Nhìn bát hủ tiếu với những cọng hủ tiếu tươi to, trắng ngà, bên trên là tim, gan, thịt heo thái, thêm chút hẹ, xà lách tươi cắt nhuyễn và hành phi giúp tăng cường sự hấp dẫn cho món ăn.
+				</p>
+				<hr>
+            <h3>Bánh đúc mặn</h3>
+            <p>
+               <img src="https://loca.vn/wp-content/uploads/dac-san-can-tho-2.jpg" alt="">
+            </p>
+              <p>
+               <img src="https://loca.vn/wp-content/uploads/dac-san-can-tho-3.jpg" alt="">
+            </p>
+            <p>
+             Đĩa bánh đúc sở hữu một hương vị ăn một lần là nhớ mãi. Bột bánh thơm cộng với cái béo ngậy từ nước cốt dừa và vị mặn của tôm thịt khiến cho món ăn tưởng hơi dị này lại hấp dẫn, ngon lành đến kỳ lạ.
+             Trong những lễ hội bánh dân gian Nam Bộ ở Sài Gòn, món bánh đúc mặn cũng có mặt và đôi khi được cắt đặt rất đẹp mắt giữa vô số những loại bánh ngon làm từ bột gạo, giữ được vị trí đó trong lòng thực khánh, hẳn bánh đúc phải có bí ẩn gì đó. Chẳng thế mà dân gian mới có câu ca rằng “Bánh đúc ăn với cá kho, bán bò mà lo trả nợ”.
+            </p>
+            <hr>
+            <h3>Bánh hỏi – heo quay Phong Điền</h3>
+            <p>
+               <img src="https://loca.vn/wp-content/uploads/dac-san-can-tho-7.jpg" alt="">
+            </p>
+            <p>
+              Bánh hỏi là món ăn dân dã được làm từ bột gạo, thường được ăn kèm với thịt heo quay, rau thơm và nước mắm chấm hoặc nước tương chua cay. Nếu như người miền Nam thích ăn bánh hỏi có tẩm mỡ hành thì người dân miền Trung lại thích ăn bánh hỏi thoa dầu lạc hoặc dầu dừa, trộn với lá hẹ xắt nhỏ. Và dù có là loại bánh nào đi chăng nữa thì cũng chứa đựng những hương vị riêng, không hề bị trộn lẫn.
+            </p>
+            <hr>
+            <h3>Ốc nướng tiêu </h3>
+            <p>
+               <img src="https://loca.vn/wp-content/uploads/dac-san-can-tho-9.jpg" alt="">
+            </p>
+            <p>
+               Cho dù là đi đâu thì bạn cũng chẳng bao giờ thấy khó khăn khi muốn kiếm tìm ốc nướng tiêu trong các nhà hàng hiện nay. Tuy nhiên, khi về Cần Thơ, chỉ cần bạn ăn món này một lần là đã thấy ngon, lần khác lại thấy ngon hơn.
+               Từng con ốc bươu mà người miền Tây còn hay gọi là ốc bưu, đem luộc sơ. Khi có yêu cầu, bỏ nồi ốc lên bếp than, vừa nướng vừa thêm mắm pha tiêu, tỏi, bột ngọt vào… sau đó chờ trong chốc lát thì nước trong ốc sôi lên, một chút là được. Không được để nồi luộc ốc lâu quá, ốc sẽ khô, không còn ngon ngọt nữa.
+            </p>
+            <hr>
+            <h3>Bánh cống Cần Thơ</h3>
+            <p>
+               <img src="https://loca.vn/wp-content/uploads/dac-san-can-tho-14.jpg" alt="">
+            </p>
+            <p>
+               Là một loại bánh dân dã, rẻ và ngon, nếu ai đã một lần ăn thì không dễ quên được hương vị của món bánh này. Người Cần Thơ thường xem bánh cống như là thứ quà vặt nên chỉ ăn vào buổi chiều hay tối, từ sau 4 giờ chiều.
+            </p>
+            <p>Ngoài ra còn nhiều đặc sản hấp dẫn ở Cần Thơ như lẩu mắm, lẩu bần, nem nướng,...</p>
+				<i><h5>Muốn có thêm ý tưởng du lịch Miền Tây? <a href="">Đăng ký nhận bản tin của chúng tôi</a> để nhận những câu chuyện hay nhất của chúng tôi trong hộp thư đến của bạn.</h5></i>
+            </div>
+            <div class="col-xs-12 col-md-2"></div>
+         </div>
+      </div>
+      <div class="container-fluid fot">
+         <div class="container">
+            <div>
+               <h1>Đọc thêm</h1>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="zoom4">
+                     <div class="exam">
+                        
+                     </div>
+                     <div class="layer">
+                        <b><p>TÌM HIỂU VỀ VĨNH LONG</p></b>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="zoom4">
+                     <div class="exam1">
+                        
+                     </div>
+                     <div class="layer">
+                        <b><p>TÌM HIỂU VỀ BẠC LIÊU</p></b>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="zoom4">
+                     <div class="exam2">
+                        
+                     </div>
+                     <div class="layer">
+                        <b><p>TÌM HIỂU VỀ AN GIANG</p></b>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer">
+         <div class="container-fluid pt-5">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4" style="padding: 0px; margin: 0px">
+                     <div>
+                        <h4>ĐĂNG KÝ NHẬN BẢN TIN CỦA CHÚNG TÔI</h4>
+                     </div>
+                     <div>
+                        <p style="font-size: 14px">Nhận các câu chuyện du lịch mới từ Miền Tây mỗi tháng một lần trong hộp thư đến của bạn.</p>
+                     </div>
+                     <div>
+                        <form action="">
+                           <div>
+                              <input type="text" name="" placeholder="Email của bạn" size="44px" style="padding: 10px"/>
+                           </div>
+                           <div style="padding-top: 10px">
+                              <button type="button" class="btn btn-danger" style="width: 375px; height: 50px">ĐĂNG KÝ</button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="col-md-3" style="padding-left: 100px">
+                     <div>
+                        <div>
+                           <h4>LIÊN KẾT HỮU ÍCH</h4>
+                        </div>
+                        <div>
+                           <div>
+                              <a href="">Chính sách bảo mật</a>
+                           </div>
+                           <div>
+                              <a href="">Thị thực cho Miền Tây</a>
+                           </div>
+                           <div>
+                              <a href="">Điều khoản và điều kiện</a>
+                           </div>
+                           <div>
+                              <a href="">Câu hỏi thường gặp</a>
+                           </div>
+                           <div>
+                              <a href="">Sơ đồ trang web</a>
+                           </div>
+                           <div>
+                              <a href="">Phương tiện truyền thông tin tức</a>
+                           </div>
+                           <div>
+                              <a href="">Tài nguyên Công nghiệp</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-5" style="padding-left: 80px">
+                     <div>
+                        <h4>THEO DÕI CHÚNG TÔI TẠI</h4>
+                     </div>
+                     <div class="row" style="padding-left: 15px; padding-top: 5px">
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-2_4.jpg" width="34px" height="34px" alt="">
+                        </div>
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-3_6.jpg" width="34px" height="34px" alt="">
+                        </div>
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-4_4.jpg" width="34px" height="34px" alt="">
+                        </div>
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web_4.jpg" width="34px" height="34px" alt="">
+                        </div>
+                     </div>
+                     <div style="padding-top: 30px">
+                        <i>
+                           <p>Chào mừng bạn đến với trang web chính thức của Tổng cục Du lịch Miền Tây. Ghé thăm các trang truyền thông xã hội của chúng tôi để có thêm cảm hứng du lịch.</p>
+                        </i>
+                     </div>
+                  </div>
+               </div>
+               <div class="container" style="padding-top: 80px">
+                  <hr style="border-bottom: 1px solid red">
+               </div>
+               <div class="container">
+                  <p style="text-align: center;">© 2020 Trang web chính thức Du lịch Miền Tây</p>
+               </div>
+            </div>
+         </div>
+      </div>      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script>
+         $(document).ready(function() {
+           $(".menu li").hover(function() {
+             $(this).find("ul:first").slideDown(500);
+           }, function() {
+             $(this).find("ul:first").hide(300);
+           });
+         });
+         $(document).ready(function() {
+          // $("#hide").click(function() {
+            $(".show").hide();
+          // });
+          $("#show").click(function() {
+            $(".show").show();
+           $("#show").hide();
+          })
+         });
+         $(document).ready(function() {
+          // $("#hide").click(function() {
+            $(".show1").hide();
+          // });
+          $("#show1").click(function() {
+            $(".show1").show();
+           $("#show1").hide();
+          })
+         });
+      </script>
+   </body>
+</html>

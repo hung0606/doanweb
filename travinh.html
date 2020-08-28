@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name=description content="">
+      <meta name=viewport content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <title>Trà Vinh</title>
+      <style>
+         *{
+         margin: 0;
+         padding: 0;
+         }
+         .container .tag a{
+         display: inline-block;
+         padding: 7px 15px;
+         margin-right: 10px;
+         margin-bottom: 10px;
+         padding-top: 40px;
+         text-decoration: none;
+         color: black;
+         }
+         .container .tag a:hover{
+         }
+
+         .footer h4{
+         color: #B2910E;
+         font-size: 20px;
+      }
+      .footer button{
+      background-image: url(https://image.freepik.com/free-vector/background-template-with-chinese-patterns-red_1308-38164.jpg);
+      
+   }
+   .footer a{
+   text-decoration: none;
+   font-size: 14px;
+   color: black;
+}
+   .fot{
+      background-color: #EBEBEB;
+      width: 100%;
+      height: 578px;
+   }
+
+         .exam {                
+         background: url("https://vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2017-07/best-vietnamese-dishes.jpg?itok=QU2MexEu")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam1 {                
+         background: url("https://vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2018-09/Desserts%20of%20Vietnam%20Banner-3.jpg?itok=aHO3dLq3")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam1:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .exam2 {                
+         background: url("https://vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2018-07/best%20fruits%20in%20vietnam.jpg?itok=-nKnATfv")
+         no-repeat 50% 50%;
+         background-size: cover;
+         height: 360px;
+         width: 360px
+         }
+         .exam2:hover {
+         transform:scale(1.1);
+         transition: 1s;
+         }
+         .zoom4 {
+         box-sizing: border-box;
+         overflow: hidden;
+         position: relative;
+         }
+         .layer {
+         position: absolute;
+         bottom: 0px;
+         left: 0;
+         background-color: #00000066;
+         color: white;
+         width: 350px;
+         height: 64px;
+         font-size: 18px;
+         }
+         .fot .row{
+            padding-top: 50px;
+         }
+         .fot h1 {
+            font-family: Helvetica;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 80px
+         }
+         h3 {
+            color: #9E0B0F;
+            font-size: 20px;
+            font-family: VNFGothamBold,Helvetica,Arial,sans-serif;
+            margin: 20px 0px 10px 0px;
+         }
+         img {
+            margin: 15px 0px;
+         }
+         h5 {
+            color: #848484;
+         }
+         p{
+            font-size: 17px
+         }
+         hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-bottom: 1px solid #eee
+         }
+         .wid img{
+            width: 750px;
+            height: 500px;
+         }
+         ul {
+         list-style: none;
+         }
+         .menu a {
+         text-decoration: none;
+         color: gray
+         }
+         .menu ul {
+         position: absolute;
+         left: 0px;
+         display: none; 
+         z-index: 1;
+         width: 100%;
+         }
+         .menu > li {
+         float: left;
+         text-align: center;
+         padding: 20px
+         }
+         .menu li li {
+            float: left;
+         }
+         .menu li:hover {
+         background: #EBEBEB;
+         cursor: pointer;
+         }
+         .menu li:hover a{
+            color: #A5190E
+         }
+         .menu > li {
+            padding: 40px 20px 20px 20px;
+         } 
+         .menu ul ul {
+         left: 150px;
+         top: 0;
+         }
+         .menu li li{
+         width: calc(100% / 4);
+         height: 400px;
+         line-height: 0px;
+         background-color: #EBEBEB;
+         color: black
+         }
+         .menu li ul {
+         padding-top: 18px
+         }
+         .menu .item li a{
+            color: black;
+         }
+         .w3-content {
+            padding-left: 20px
+         }
+         .item li p {
+            padding: 10px;
+            text-align: center;
+         }
+         .item li{
+            padding-top:  70px;
+         }
+         .sir li > p{
+            color: #B2910E
+         }
+         .ind a{
+            z-index: 2;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="row ind">
+            <a href=""><img src="https://mir-s3-cdn-cf.behance.net/projects/404/f0ebf338211777.Y3JvcCwxMzc5LDEwODAsMjcwLDA.jpg" width="152" height="117" alt=""></a>
+            <div class="w3-content">
+               <ul class="menu">
+                  <li><a href="#"><b>Những nơi để đi</b></a>
+                     <ul class="item sir">
+                        <li style="padding-left: 200px">
+                           <p style="padding-left: 40px"><b>CÁC TỈNH ĐỂ ĐI</b></p>
+                           <p style="padding-right: 32px; padding-top: 20px"><a href="angiang.html">An Giang</a></p>
+                           <p style="padding-right: 40px"><a href="baclieu.html">Bạc Liêu</a></p>
+                           <p style="padding-right: 45px"><a href="bentre.html">Bến Tre</a></p>
+                           <p style="padding-right: 43px"><a href="camau.html">Cà Mau</a></p>
+                           <p style="padding-right: 37px"><a href="cantho.html">Cần Thơ</a></p>
+                        </li>
+                        <li style="padding-left: 100px">
+                           <p style="padding-left: 40px"><b>CÁC TỈNH ĐỂ ĐI</b></p>
+                           <p style="padding-right: 20px; padding-top: 20px"><a href="dongthap.html">Đồng Tháp</a></p>
+                           <p style="padding-right: 25px"><a href="haugiang.html">Hậu Giang</a></p>
+                           <p style="padding-right: 23px"><a href="kiengiang.html">Kiên Giang</a></p>
+                           <p style="padding-right: 40px"><a href="longan.html">Long An</a></p>
+                        </li>
+                        <li>
+                           <p style="padding-left: 40px"><b>CÁC TỈNH ĐỂ ĐI</b></p>
+                           <p style="padding-top: 25px; padding-right: 25px"><a href="soctrang.html">Sóc Trăng</a></p>
+                           <p style="padding-right: 22px"><a href="tiengiang.html">Tiền Giang</a></p>
+                           <p style="padding-right: 39px"><a href="travinh.html">Trà Vinh</a></p>
+                           <p style="padding-right: 21px"><a href="vinhlong.html">Vĩnh Long</a></p>
+                        </li>
+                        <li>
+                           <img src="https://www.vietfuntravel.com.vn/image/data/Blog/DiaDiem/ban-do-du-lich-13-tinh-mien-tay-nam-bo/ban-do-du-lich-13-tinh-mien-tay-nam-bo-0.jpg.png" width="300px" height="300px" alt="">
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="#"><b>Những việc cần làm</b></a></li>
+                  <li>
+                     <a href="#"><b>Lên kế hoạch cho chuyến đi của bạn</b></a>
+                     <ul class="item">
+                        <li>
+                              <p href="#"><a href="angiang.html">Đến Miền Tây</a></p>
+                              <p style="padding-left: 34px" href="#"><a href="bentre.html">Đi khắp Miền Tây</a></p>
+                              <p style="padding-right: 41px" href="#"><a href="noi.html">Sức khỏe</a></p>
+                              <p style="padding-right: 50px" href="#"><a href="noi.html">An toàn</a></p>
+                              <p style="padding-right: 20px" href="#"><a href="noi.html">Phương tiện</a></p>
+                        </li>
+                        <li>
+                              <p style="padding-left: 25px; color: #B2910E"><b>CÁC CHUYẾN ĐI ĐƯỢC ĐỀ XUẤT</b></p>
+                              <p style="padding-top: 20px; padding-right: 50px"><a href="">Điểm nổi bật của Miền Tây</a></p>
+                              <p style="padding-right: 125px"><a href="">Di sản Miền Tây</a></p>
+                              <p style="padding-right: 60px"><a href="">Xem tất cả các chuyến đi</a></p>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <img src="https://file.vforum.vn/hinh/2018/03/hinh-anh-hinh-nen-song-nuoc-dep-song-nuoc-mien-tay-que-huong-10.jpg" width="220px" height="220px" alt="">
+                           </a>
+                        </li>
+                        <li style="padding-right: 180px; margin: 0px">
+                           <a href="#">
+                              <img src="https://cafefcdn.com/thumb_w/650/2017/photo-6-1508126712679.jpg" width="220px" height="220px" alt="">
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="#"><b>Du lịch xanh</b></a></li>
+                  <li><a href="#"><b>Miền Tây bây giờ</b></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid mt-3" style="padding: 0px">
+         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="https://huongsacmientay.com/wp-content/uploads/2020/03/tinh-tra-vinh.jpg" class="d-block w-100" alt=".">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container mt-5">
+         <div class="form-group">
+            <div class="row">
+               <div class="col-md-3"></div>
+               <div class="col-md-3"></div>
+               <div class="col-md-3"></div>
+               <div class="col-md-3">
+                  <div class="row">
+                     <div>
+                        <a href=""><img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-2_4.jpg" width="22px" height="22px" alt=""></a>
+                     </div>
+                     <div>
+                        <a href=""><img style="padding-left: 3px;" src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-3_6.jpg" width="25px" height="22px" alt=""></a>
+                     </div>
+                     <div>
+                        <a href=""><img style="padding-left: 3px" src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-4_4.jpg" width="25px" height="22px" alt=""></a>
+                     </div>
+                     <div>
+                        <a href=""><img style="padding-left: 3px" src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web_4.jpg" width="25px" height="22px" alt=""></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row wid">
+            <div class="col-xs-12 col-md-2"></div>
+            <div class="col-xs-12 col-md-8">
+               
+                  <i><p style="font-size: 20px"><b>Trà Vinh</b> là tỉnh duyên hải Đồng bằng sông Cửu Long, có vị trí địa lý: phía Đông giáp Biển Đông, phía Tây giáp Vĩnh Long, phía Nam giáp Sóc Trăng, phía Bắc giáp tỉnh Bến Tre, có 65 km bờ biển. Cùng đi khám phá <b>Trà Vinh</b> nhé.</p></i>
+                  <hr>
+                  <h2>Địa điểm du lịch</h2>
+                  <hr>
+                  <h3>Ao Bà Om</h3>
+                  <p>
+                    Nếu có ý định tổ chức tour du lịch sinh thái Trà Vinh, những địa điểm thiên nhiên đẹp như ao Bà Om nhất định không nên bị bỏ sót. Địa điểm du lịch Trà Vinh này còn được bộ Văn hóa Thông tin công nhận là di tích danh thắng cấp quốc gia năm 1994. Vậy ao Bà Om có gì mà hấp dẫn đến thế?
+                  </p>
+                  <p>
+                     <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2018/08/ao-ba-om-2.png"alt="">
+                  </p>
+            <hr>
+            <h3>Khu du lịch sinh thái rừng đước</h3>
+            <p>
+                     <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2018/08/rung-duoc-1.png"alt="">
+                  </p>
+            <p>Có lịch sử hình thành hơn 20 tuổi, Khu du lịch sinh thái rừng đước từ lâu đã trở thành địa điểm du lịch Trà Vinh hấp dẫn với những ai yêu thích khám phá thiên nhiên. Với đặc sản là rừng đước có diện tích lớn bạt ngàn, dấu ấn đầu tiên mà nơi đây mang lại là không gian hoang sơ kì vĩ đến choáng ngợp.</p>
+            <p>
+                     <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2018/08/rung-duoc-2.png"alt="">
+                  </p>
+            <p>Ẩn mình trong hệ thống rừng nguyên sinh là thế giới động, thực vật vô cùng phong phú. Xuôi theo con thuyền, con ghe dọc miền sông nước, khách du lịch vừa được tận mắt bắt gặp những loài động thực vật quý hiếm, vừa được người dân địa phương giới thiệu những tập quán, đặc tính thú vị của chúng.</p>
+            <hr>
+            <h3>Chùa Hang</h3>
+            
+            <p>
+               <img src="https://wiki-travel.com.vn/Uploads/picture/camnhi-193717043731-chua-hang.jpg"alt="">
+            </p>
+            <p>
+               Chùa Hang nằm trên địa bàn tỉnh Trà Vinh là một trong những ngôi chùa có kiến trúc độc nhất trong số những chùa Phật giáo Nam tông Khmer. Chùa khởi nguyên ở bên bờ sông Long Đình, gần bến ghe xuồng qua lại gần bên gốc cây đa nơi cho bà con trong phum sóc đến nghe kinh, lễ Phật nên có tên gọi là Chùa Bến Cây Đa.
+            </p>
+            <hr>
+            <h3>Biển Ba Động</h3>
+            
+            <p>
+               <img src="https://www.dulichtravinh.com.vn/images/BaDong.jpg"alt="">
+            </p>
+            <p>
+               Biển Ba Động là danh thắng và là khu du lịch nổi tiếng thuộc xã Trường Long Hòa (thị xã Duyên Hải, tỉnh Trà Vinh), cách trung tâm thành phố Trà Vinh 50 km về hướng đông nam và cách thị xã Duyên Hải 10 km về hướng đông. Khu du lịch này có vị trí nằm giữa hai cửa biển Cung Hầu (sông Tiền), Định An (sông Hậu), nhìn chính diện ra biển Đông.
+            </p>
+            <p>
+               <img src="https://www.dulichtravinh.com.vn/images/2018/Bi%E1%BB%83n_Ba_%C4%90%E1%BB%99ng_Nguy%E1%BB%85n_Ph%C3%BA_Nhu%E1%BA%ADn.jpg" alt="">
+            </p>
+            <p>
+               Vùng biển Đông ven bờ các tỉnh Đồng bằng sông Cửu Long là vùng biển phù sa do nhiều cửa sông lớn nhỏ đổ ra nên phần lớn là bãi bùn, nước không trong. Trong đó, biển Ba Động là khu vực hiếm hoi ở miền Tây Nam bộ được thiên nhiên hào phóng ban tặng cho một bãi cát dài hơn 10 km từ ấp Nhà Mát tới ấp Cồn Trứng. Do độ dốc thoai thoải, khi nước thủy triều xuống, bãi cát phơi ra hàng trăm mét, từ bờ xuống tới mép nước.</p>
+            <hr>
+            <h3>Cù lao Long Trị</h3>
+            <p>Khu du lịch cù Lao Long Trị lấy lòng người tham quan nhờ chuỗi các hoạt động vui chơi ăn uống thú vị như chèo thuyền, câu cá, đạp xe quanh khu du lịch và tham quan vườn trái cây xum xuê hoa quả.</p>
+            <p>
+               <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2018/08/c%C3%B9-lao-long-tr%E1%BB%8B-2.png"alt="">
+            </p>
+            
+            <hr>
+            <h3>Chùa Âng </h3> 
+            <p>
+               <img src="http://dulichvietnam.com.vn/data/du-lich-tra-vinh-6.jpg"alt="">
+            </p>
+            <p>Chùa Âng (hay có tên gọi là Angorràjapurì) là di tích kiến trúc nghệ thuật cấp quốc gia, tọa lạc cạnh danh thắng ao Bà Om, đối diện với Bảo tàng văn hóa dân tộc Khmer. Đây là ngôi chùa Khmer cổ kính ở Trà Vinh, dù đã qua nhiều lần trùng tu nhưng Chính điện vẫn giữ được nét kiến trúc cổ với khung sườn làm từ gỗ quý, mái lợp ngói… Đây cũng là nơi tập trung nhiều tác phẩm hội họa đặc sắc như: Tranh về cuộc đời đức phật Thích Ca, tượng tiên nữ, chim thần, rắn thần…</p>
+            <hr>
+            <h2>Đặc sản</h2>
+            <h3>Bún nước lèo Trà Vinh</h3>
+            <p>
+               <img src="https://bazantravel.com/cdn/medias/uploads/58/58527-bun-nuoc-leo-tra-vinh-7-700x700.jpg"alt="">
+            </p>
+            <p>Đặc sản Trà Vinh đầu tiên bạn nhất định phải thử đó chính là bún nước lèo. Bún nước lèo gây ấn tượng trước tiên bởi mùi hương không giống với bất kì loại bún hay phở nào khác. Chính nguyên liệu mắm bò hóc đã tạo nên hương vị đặc trưng cho món ăn này.</p>
+            <p>
+               <img src="https://s3-ap-southeast-1.amazonaws.com/vietnamtravellog/wp-content/uploads/2019/05/07002754/1557163673_travinh_at_bunnuocleo1.jpg" alt="">
+            </p>
+            <p>
+               Bún nước lèo tuy là món ăn có phần dân dã, giản đơn nhưng chất chứa trong đó là cả sự chút chăm của người nấu cũng như những tinh túy ruộng đồng gửi vào trong ấy. Về Trà Vinh hãy thử một lần ghé vào quán nhỏ ở bất cứ nơi nào đó, gọi một tô bún nước lèo còn ngi ngút khói và thưởng thức, chắc hẳn du khách sẽ cảm nhận được hương vị độc đáo của vị mắm đất Trà.
+            </p>
+            <hr>
+            <h3>Bún suông</h3>
+            <p>
+            Bún suông Trà Vinh hay còn được người dân nơi đây gọi là bún đuông. Sở dĩ có tên gọi như vậy vì trong tô bún có thêm những cọng chả tôm trông giống như con đuông. Chả tôm được làm từ tôm tươi, ướp hành tỏi và gia vị vừa ăn. Chính vì vậy mà khi ăn cọng chả tôm bạn sẽ cảm nhận được hết sự tinh tuý trong đó.
+            </p>
+            <p>
+               <img src="https://bazantravel.com/cdn/medias/uploads/58/58530-dac-san-tra-vinh-1-700x408.jpg" alt="">
+            </p>
+            <hr>
+            <h3> Bánh bao Vinh Kim</h3>
+            <p>
+               <img src="https://bazantravel.com/cdn/medias/uploads/58/58538-banh-bo-vinh-kim-700x700.jpg" alt="">
+            </p>
+            <p>
+              Vinh Kim là một xã thuộc huyện Cầu Ngang, tỉnh Trà Vinh. Đến khu vực này bạn sẽ thấy dọc quốc lộ có rất nhiều người bán bánh bao. Người dân Trà Vinh rất thích ăn bánh bao Vinh Kim vì bánh tươi, nóng và nhân được làm rất vừa ăn.
+            </p>
+            <hr>
+            <h3>Cháo cá lóc rau đắng</h3>
+            <p>
+               Cháo cá lóc rau thì ở đâu cũng có những cháo cá lóc rau đắng đặc sản Trà Vinh lại có hương vị rất khác. Có lẽ vì cháo được nấu bằng thịt cá lóc đồng còn tươi nên cháo có vị ngọt rất đậm đà và tự nhiên. Ăn cháo cá lóc người ta cho ít rau đắng vào tô trước rồi mới cho cháo vào. Rau đắng chín nhờ hơi nóng của cháo nên vẫn giữ nguyên được màu xanh và độ đắng cũng vừa phải chứ không quá đắng. Húp miếng cháo nóng sau đó gắp miếng thịt cá chấm vào nước mắm rồi thưởng thức mới cảm nhận được mỹ vị nhân gian là thế nào.
+            </p>
+            <p>
+               <img src="https://bazantravel.com/cdn/medias/uploads/58/58544-chao-ca-loc-rau-dang-700x467.jpg" alt="">
+            </p>
+            
+            <hr>
+            <h3>Hải sản Duyên Hải</h3>
+            <p>
+               <img src="Hải sản Duyên Hải" alt="">
+            </p>
+            <p>
+               Duyên Hải là một huyện ven biển của tỉnh Trà Vinh. Người dân ở đây sống chủ yếu bằng nghề nuôi trồng và đánh bắt thuỷ hải sản. Đến Duyên Hải bạn sẽ nhìn thấy rất nhiều ao nuôi tôm hai bên đường đi. Các khu chợ ở Duyên Hải bán rất nhiều hải sản khác nhau như tôm, cua, ghẹ, cá, ốc, nghêu... Nhất là chợ Long Hữu trên tuyến đường dẫn ra khu du lịch biển Ba Động nổi tiếng. Bạn sẽ dễ dàng nhận ra khu chợ này khi cả khu bày bán hải sản lộ thiên rất bắt mắt. Không chỉ tươi ngon mà hải sản ở đây còn cực kỳ rẻ so với giá thị trường.
+            </p>
+            <p>Ngoài ra còn nhiều đặc sản hấp dẫn ở Trà Vinh như cốm dẹp, Bánh tét Trà Cuôn, trái mây….</p>
+            <i><h5>Muốn có thêm ý tưởng du lịch Miền Tây? <a href="">Đăng ký nhận bản tin của chúng tôi</a> để nhận những câu chuyện hay nhất của chúng tôi trong hộp thư đến của bạn.</h5></i>
+            </div>
+            <div class="col-xs-12 col-md-2"></div>
+         </div>
+      </div>
+      <div class="container-fluid fot">
+         <div class="container">
+            <div>
+               <h1>Đọc thêm</h1>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="zoom4">
+                     <div class="exam">
+                        
+                     </div>
+                     <div class="layer">
+                        <b><p>TÌM HIỂU VỀ VĨNH LONG</p></b>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="zoom4">
+                     <div class="exam1">
+                        
+                     </div>
+                     <div class="layer">
+                        <b><p>TÌM HIỂU VỀ BẠC LIÊU</p></b>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="zoom4">
+                     <div class="exam2">
+                        
+                     </div>
+                     <div class="layer">
+                        <b><p>TÌM HIỂU VỀ CẦN THƠ</p></b>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer">
+         <div class="container-fluid pt-5">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4" style="padding: 0px; margin: 0px">
+                     <div>
+                        <h4>ĐĂNG KÝ NHẬN BẢN TIN CỦA CHÚNG TÔI</h4>
+                     </div>
+                     <div>
+                        <p style="font-size: 14px">Nhận các câu chuyện du lịch mới từ Miền Tây mỗi tháng một lần trong hộp thư đến của bạn.</p>
+                     </div>
+                     <div>
+                        <form action="">
+                           <div>
+                              <input type="text" name="" placeholder="Email của bạn" size="44px" style="padding: 10px"/>
+                           </div>
+                           <div style="padding-top: 10px">
+                              <button type="button" class="btn btn-danger" style="width: 375px; height: 50px">ĐĂNG KÝ</button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="col-md-3" style="padding-left: 100px">
+                     <div>
+                        <div>
+                           <h4>LIÊN KẾT HỮU ÍCH</h4>
+                        </div>
+                        <div>
+                           <div>
+                              <a href="">Chính sách bảo mật</a>
+                           </div>
+                           <div>
+                              <a href="">Thị thực cho Miền Tây</a>
+                           </div>
+                           <div>
+                              <a href="">Điều khoản và điều kiện</a>
+                           </div>
+                           <div>
+                              <a href="">Câu hỏi thường gặp</a>
+                           </div>
+                           <div>
+                              <a href="">Sơ đồ trang web</a>
+                           </div>
+                           <div>
+                              <a href="">Phương tiện truyền thông tin tức</a>
+                           </div>
+                           <div>
+                              <a href="">Tài nguyên Công nghiệp</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-5" style="padding-left: 80px">
+                     <div>
+                        <h4>THEO DÕI CHÚNG TÔI TẠI</h4>
+                     </div>
+                     <div class="row" style="padding-left: 15px; padding-top: 5px">
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-2_4.jpg" width="34px" height="34px" alt="">
+                        </div>
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-3_6.jpg" width="34px" height="34px" alt="">
+                        </div>
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-4_4.jpg" width="34px" height="34px" alt="">
+                        </div>
+                        <div>
+                           <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web_4.jpg" width="34px" height="34px" alt="">
+                        </div>
+                     </div>
+                     <div style="padding-top: 30px">
+                        <i>
+                           <p>Chào mừng bạn đến với trang web chính thức của Tổng cục Du lịch Miền Tây. Ghé thăm các trang truyền thông xã hội của chúng tôi để có thêm cảm hứng du lịch.</p>
+                        </i>
+                     </div>
+                  </div>
+               </div>
+               <div class="container" style="padding-top: 80px">
+                  <hr style="border-bottom: 1px solid red">
+               </div>
+               <div class="container">
+                  <p style="text-align: center;">© 2020 Trang web chính thức Du lịch Miền Tây</p>
+               </div>
+            </div>
+         </div>
+      </div>      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script>
+         $(document).ready(function() {
+           $(".menu li").hover(function() {
+             $(this).find("ul:first").slideDown(500);
+           }, function() {
+             $(this).find("ul:first").hide(300);
+           });
+         });
+         $(document).ready(function() {
+          // $("#hide").click(function() {
+            $(".show").hide();
+          // });
+          $("#show").click(function() {
+            $(".show").show();
+           $("#show").hide();
+          })
+         });
+         $(document).ready(function() {
+          // $("#hide").click(function() {
+            $(".show1").hide();
+          // });
+          $("#show1").click(function() {
+            $(".show1").show();
+           $("#show1").hide();
+          })
+         });
+      </script>
+   </body>
+</html>
